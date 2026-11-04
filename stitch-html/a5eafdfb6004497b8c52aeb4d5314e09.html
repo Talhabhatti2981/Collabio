@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "primary": "#1b32c8",
+        "secondary-fixed-dim": "#44deb7",
+        "surface-container-highest": "#dce2f7",
+        "on-surface": "#141b2b",
+        "error": "#ba1a1a",
+        "on-secondary-fixed-variant": "#005140",
+        "on-tertiary-container": "#ffd699",
+        "secondary-container": "#67fbd3",
+        "on-primary": "#ffffff",
+        "primary-fixed-dim": "#bcc2ff",
+        "on-tertiary-fixed-variant": "#604100",
+        "outline": "#757686",
+        "on-surface-variant": "#454655",
+        "on-background": "#141b2b",
+        "tertiary": "#634300",
+        "outline-variant": "#c5c5d7",
+        "on-error": "#ffffff",
+        "surface-dim": "#d3daef",
+        "surface-bright": "#f9f9ff",
+        "on-error-container": "#93000a",
+        "tertiary-fixed-dim": "#fabc50",
+        "inverse-on-surface": "#edf0ff",
+        "surface-container": "#e9edff",
+        "on-primary-fixed-variant": "#172ec6",
+        "on-secondary": "#ffffff",
+        "tertiary-container": "#825900",
+        "secondary": "#006b56",
+        "tertiary-fixed": "#ffdead",
+        "inverse-surface": "#293040",
+        "primary-fixed": "#dfe0ff",
+        "on-secondary-fixed": "#002018",
+        "on-secondary-container": "#00725b",
+        "on-primary-fixed": "#000c62",
+        "secondary-fixed": "#67fbd3",
+        "error-container": "#ffdad6",
+        "surface-variant": "#dce2f7",
+        "background": "#f9f9ff",
+        "on-tertiary-fixed": "#281900",
+        "on-tertiary": "#ffffff",
+        "on-primary-container": "#d8daff",
+        "primary-container": "#3b4fe0",
+        "surface-container-low": "#f1f3ff",
+        "surface-tint": "#384cdd",
+        "inverse-primary": "#bcc2ff",
+        "surface-container-high": "#e1e8fd",
+        "surface-container-lowest": "#ffffff",
+        "surface": "#f9f9ff"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "space-xs": "0.25rem",
+        "space-xl": "2rem",
+        "margin": "2rem",
+        "space-sm": "0.5rem",
+        "gutter": "1.5rem",
+        "gutter-mobile": "1rem",
+        "space-md": "1rem",
+        "margin-mobile": "1rem",
+        "space-lg": "1.5rem"
+      },
+      "fontFamily": {
+        "label-lg": ["Inter"],
+        "body-lg": ["Inter"],
+        "body-md": ["Inter"],
+        "label-md": ["Inter"],
+        "headline-xl": ["Inter"],
+        "headline-sm": ["Inter"],
+        "label-sm": ["Inter"],
+        "headline-lg-mobile": ["Inter"],
+        "headline-lg": ["Inter"],
+        "headline-md": ["Inter"],
+        "headline-xl-mobile": ["Inter"],
+        "body-sm": ["Inter"]
+      },
+      "fontSize": {
+        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "500"}],
+        "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400"}],
+        "body-md": ["14px", {"lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400"}],
+        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+        "headline-xl": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+        "headline-sm": ["16px", {"lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600"}],
+        "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600"}],
+        "headline-lg-mobile": ["22px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+        "headline-md": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "headline-xl-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+        "body-sm": ["13px", {"lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400"}]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-xl border-b border-outline-variant/30"><div class="h-16 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><a class="flex items-center gap-space-sm" data-path="deals" href="#"><img alt="Pactly Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WhJfALA_YZ_KbKMs7dakQ1l5nhaNfLk6nHsB2RmkXizWzVjcrbR5d1xBGP5gAUhkPbkJPMdMkgwEaVnRqgFKYSqmFMdZfMgi0QohE8lT-eJHqrzLGLdGu_s3l2UdwKdZ_QBWU7kYq9xfsCSrGW-JM0qG5frXTv4xO8LexXis2Wkt9cAUSjJiI7YvV7DyGaErFsEhnYEJWe73kLDU1KoI8KHKUGF5qtaDXKj1PuE6V1ivfogZ2EWFn8iEMg"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Pactly</span></a><nav class="hidden md:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-semibold"><a class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="deals" href="#">Deals</a><a class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="profile" href="#">Profile</a><a class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="settings" href="#">Settings</a><a class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Help &amp; Legal</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-sm bg-surface-container-lowest px-3 py-1.5 rounded-full border border-outline-variant/40"><span class="flex h-2 w-2 rounded-full bg-secondary"></span><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">In Escrow</span><span class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">£12,450.00</span></div></div><div class="h-7 w-[1px] bg-outline-variant/40 hidden sm:block"></div><div class="relative group flex items-center gap-space-sm pl-1"><div class="text-right hidden lg:block"><div class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Lumina Studio</div><div class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Brand account</div></div><button aria-label="Account menu" class="flex items-center gap-1.5 p-1 rounded-full hover:bg-surface-container transition-colors"><div class="w-9 h-9 rounded-full bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">business</span></div><span class="material-symbols-outlined text-outline text-[18px]">expand_more</span></button><div class="absolute right-0 top-full mt-2 w-56 bg-surface-container-lowest rounded-xl border border-outline-variant/40 shadow-lg py-1.5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150 z-50"><div class="px-4 py-2 border-b border-outline-variant/30 lg:hidden"><div class="font-label-lg text-label-lg text-on-surface font-semibold">Lumina Studio</div><div class="font-label-sm text-label-sm text-on-surface-variant">Brand account · £12,450.00</div></div><a class="flex items-center gap-2 px-4 py-2 font-label-lg text-label-lg text-on-surface hover:bg-surface-container-low transition-colors" data-path="profile" href="#"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">person</span>Brand Profile</a><a class="flex items-center gap-2 px-4 py-2 font-label-lg text-label-lg text-on-surface hover:bg-surface-container-low transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">tune</span>Billing &amp; Payouts</a><a class="flex items-center gap-2 px-4 py-2 font-label-lg text-label-lg text-on-surface hover:bg-surface-container-low transition-colors" data-path="help-and-legal" href="#"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">shield</span>Dispute Resolution</a><div class="my-1 border-t border-outline-variant/30"></div><a class="flex items-center gap-2 px-4 py-2 font-label-lg text-label-lg text-error hover:bg-error-container/20 transition-colors" data-path="login" href="#"><span class="material-symbols-outlined text-[18px] text-error">logout</span>Sign out</a></div></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Background Ambient Gradient -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[1000px] h-[340px] bg-gradient-to-b from-primary/5 via-secondary/5 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<div class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin py-space-lg relative z-10 flex flex-col gap-space-lg">
+<!-- Breadcrumb & Top Meta Badges -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" data-path="deals" href="#">
+<span class="material-symbols-outlined text-[16px]">folder_open</span>
+            Deals
+          </a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<a class="hover:text-primary transition-colors font-medium" href="#">New Deal (#UK-5028)</a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-on-surface font-semibold bg-surface-container-high px-2 py-0.5 rounded">Assign Counterparty</span>
+</nav>
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+            Draft #UK-5028
+          </span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-fixed/60 text-on-primary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">gavel</span>
+            English Commercial Law Model 2.4
+          </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container/50 text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">verified_user</span>
+            GBP (£) Protected
+          </span>
+</div>
+</div>
+<!-- 4-Step Escrow Wizard Header -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Step 1: Completed -->
+<a class="group flex items-center gap-space-sm p-2 rounded-lg hover:bg-surface-container-low transition-colors text-left" href="#">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Step 1 • Completed</div>
+<div class="font-headline-sm text-headline-sm text-on-surface truncate group-hover:text-primary transition-colors">Scope &amp; Deliverables</div>
+</div>
+</a>
+<!-- Step 2: Active -->
+<div class="flex items-center gap-space-sm p-2 rounded-lg bg-surface-container-high relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary"></div>
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md font-bold shrink-0 shadow-sm">
+              2
+            </div>
+<div class="min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Step 2 • Active</span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Assign Counterparty</div>
+</div>
+</div>
+<!-- Step 3: Upcoming -->
+<div class="flex items-center gap-space-sm p-2 rounded-lg opacity-60">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest text-outline flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Step 3 • Upcoming</div>
+<div class="font-headline-sm text-headline-sm text-on-surface truncate">Escrow Funding Lock</div>
+</div>
+</div>
+<!-- Step 4: Upcoming -->
+<div class="flex items-center gap-space-sm p-2 rounded-lg opacity-60">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest text-outline flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Step 4 • Final</div>
+<div class="font-headline-sm text-headline-sm text-on-surface truncate">Legal Terms &amp; Solicitor</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Title & Eyebrow Section -->
+<div class="flex flex-col gap-1 max-w-3xl">
+<span class="font-label-sm text-label-sm font-semibold tracking-widest text-primary uppercase flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px]">security</span>
+          FCA Segregated Custody Architecture • Jurisdiction: England &amp; Wales
+        </span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface">Assign Contract Counterparty</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-1">
+          Select an enrolled verified creator or invite an external talent partner via encrypted escrow pass. Upon selection, Pactly validates AML/KYC clearance and links payout rails.
+        </p>
+</div>
+<!-- Content Columns Layout (12-col Desktop) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start pb-space-xl">
+<!-- Left Main Area (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Mode Selection Tab Bar -->
+<div class="bg-surface-container-low p-1.5 rounded-xl flex flex-wrap sm:flex-nowrap gap-1 shadow-sm">
+<button class="flex-1 py-2 px-3 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg font-semibold shadow-sm flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Registered Talent</span>
+<span class="hidden sm:inline-block font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-1.5 py-0.5 rounded-full">Instant</span>
+</button>
+<button class="flex-1 py-2 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-lg text-label-lg font-medium flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">forward_to_inbox</span>
+<span>External Creator Pass</span>
+</button>
+<button class="flex-1 py-2 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-lg text-label-lg font-medium flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+<span>Recent Collaborators</span>
+</button>
+</div>
+<!-- Search & Registry Verification Bar -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center justify-between" for="talent-search">
+<span>Search Verified Creator Registry</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[14px]">format_image_left</span>
+                Direct Companies House &amp; FCA Registry Sync
+              </span>
+</label>
+<div class="relative">
+<div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline text-[20px]">search</span>
+</div>
+<input class="w-full pl-10 pr-24 py-2.5 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-medium" id="talent-search" type="text" value="@charlotte_creator (charlotte@clarkcreative.co.uk)"/>
+<div class="absolute inset-y-0 right-2 flex items-center">
+<button class="bg-surface-container hover:bg-surface-container-high text-on-surface-variant p-1 rounded-md transition-colors" title="Clear query" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+</div>
+<!-- Registry Cleared Status Pill -->
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary-container/40 text-on-secondary-container">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span class="font-label-sm text-label-sm font-semibold">Active Registry Match: HM Treasury Sanction Check, PEP &amp; Companies House cleared</span>
+<span class="material-symbols-outlined text-[16px] ml-auto text-secondary">verified</span>
+</div>
+</div>
+<!-- Matched Creator Detailed Profile Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md relative overflow-hidden">
+<div class="absolute top-0 right-0 px-4 py-1.5 bg-secondary text-on-secondary font-label-sm text-label-sm font-semibold rounded-bl-xl flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+              Identity Confirmed &amp; KYC Level 3
+            </div>
+<!-- Profile Header Row -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-md pt-2">
+<div class="relative">
+<div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-primary to-primary-container text-on-primary flex items-center justify-center font-headline-lg text-headline-lg font-bold shadow-md">
+                  CC
+                </div>
+<div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-secondary text-on-secondary flex items-center justify-center ring-2 ring-surface-container-lowest">
+<span class="material-symbols-outlined text-[14px] font-bold">check</span>
+</div>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex flex-wrap items-center gap-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Charlotte Emily Clark</h3>
+<span class="font-label-sm text-label-sm px-2 py-0.5 bg-surface-container-high rounded text-on-surface-variant font-medium">Sole Trader / Contractor</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="font-medium text-primary">@charlotte_creator</span>
+<span>•</span>
+<span>Registered in Bristol, UK</span>
+<span>•</span>
+<span class="text-secondary font-medium flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">bolt</span> Instant Rails Active
+                  </span>
+</div>
+</div>
+</div>
+<!-- Linked Verified Channels with OAuth Indicators -->
+<div class="flex flex-col gap-space-xs mt-1">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Authenticated Channels &amp; API Handles</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<!-- YouTube -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">play_circle</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-md text-label-md font-semibold text-on-surface truncate">@charlotte_vlogs</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span>184k subs</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+<span class="text-secondary">OAuth Sync</span>
+</div>
+</div>
+</div>
+<!-- Instagram -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-md text-label-md font-semibold text-on-surface truncate">@charlotte.creates</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span>142k fans</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+<span class="text-secondary">Meta Verified</span>
+</div>
+</div>
+</div>
+<!-- TikTok -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">music_video</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-md text-label-md font-semibold text-on-surface truncate">@charlotte_tok</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span>95k fans</span>
+<span class="w-1 h-1 rounded-full bg-secondary"></span>
+<span class="text-secondary">Spark Ads Ready</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Escrow Trust Metrics Data Mosaic -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-sm px-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold">14 / 14 Pacts</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">100% On-time Release</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm px-2">
+<span class="material-symbols-outlined text-primary text-[22px]">gavel</span>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold">Zero Disputes</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Clean Tribunal Ledger</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm px-2">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[22px]">schedule</span>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold">26 Hours</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Avg. Deliverable Review</div>
+</div>
+</div>
+</div>
+<!-- Compliance, KYC & Banking Status Badges -->
+<div class="flex flex-wrap gap-2 pt-1">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+<span><strong>KYC / AML:</strong> HM Treasury Cleared (12 Oct 2026)</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">account_balance</span>
+<span><strong>Banking Rail:</strong> NatWest Business (****4910) Faster Payments</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">contract</span>
+<span><strong>Legal Master:</strong> Schedule 4 Pre-Agreed</span>
+</div>
+</div>
+</div>
+<!-- Notification & Invitation Settings -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Counterparty Notification &amp; Access Controls</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Configure how Charlotte receives notification of the escrow assignment and acceptance terms.</p>
+</div>
+<span class="material-symbols-outlined text-outline">tune</span>
+</div>
+<!-- Delivery Method Options -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<label class="flex items-start gap-space-sm p-space-md rounded-xl bg-surface-container-low cursor-pointer hover:bg-surface-container transition-colors relative">
+<input checked="" class="mt-1 text-primary focus:ring-primary" name="invite_method" type="radio"/>
+<div class="flex flex-col gap-0.5">
+<div class="font-label-lg text-label-lg font-semibold text-on-surface flex items-center gap-1.5">
+                    Instant In-App &amp; Push
+                    <span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-1.5 py-0.2 rounded font-semibold text-[10px]">FAST</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Direct notification to creator mobile app and authenticated email with encrypted acceptance link.
+                  </span>
+</div>
+</label>
+<label class="flex items-start gap-space-sm p-space-md rounded-xl bg-surface-container-low cursor-pointer hover:bg-surface-container transition-colors">
+<input class="mt-1 text-primary focus:ring-primary" name="invite_method" type="radio"/>
+<div class="flex flex-col gap-0.5">
+<div class="font-label-lg text-label-lg font-semibold text-on-surface">Encrypted Email Escrow Pass</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                    Generates a single-use cryptographically signed PDF pass with legal preview and signature token.
+                  </span>
+</div>
+</label>
+</div>
+<!-- Acceptance Deadline Selector -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pt-space-xs">
+<div>
+<div class="font-label-lg text-label-lg text-on-surface font-semibold">Counterparty Acceptance Window</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Time allotted for counterparty to sign terms before escrow reservation expires.</div>
+</div>
+<select class="bg-surface-container-low font-label-lg text-label-lg text-on-surface px-3 py-2 rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-primary/20 cursor-pointer">
+<option selected="">48 Hours (Standard Pactly Window)</option>
+<option>24 Hours (Urgent Priority)</option>
+<option>72 Hours (Weekend / Multi-stakeholder)</option>
+<option>5 Working Days (Corporate Legal Review)</option>
+</select>
+</div>
+<!-- Memo Textarea -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center justify-between" for="invite-memo">
+<span>Personalized Memo / Onboarding Instructions</span>
+<span class="font-label-sm text-label-sm text-outline">Optional • Appears on creator's review portal</span>
+</label>
+<textarea class="w-full p-3 bg-surface-container-low rounded-lg font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all resize-none leading-relaxed" id="invite-memo" rows="3">Hi Charlotte, thrilled to partner on the Q4 Tech Stack Integration. Milestone terms and escrow funding details are locked inside. Let us know if you need any adjustments to the 18 Nov delivery schedule!</textarea>
+</div>
+</div>
+<!-- Bottom Navigation Controls -->
+<div class="flex items-center justify-between pt-space-sm">
+<a class="px-5 py-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg font-medium transition-colors flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+              Back to Scope &amp; Deliverables
+            </a>
+<div class="flex items-center gap-space-sm">
+<button class="px-4 py-2.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low font-label-lg text-label-lg font-medium transition-colors" type="button">
+                Save Draft
+              </button>
+<a class="px-6 py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold shadow-md hover:shadow-lg transition-all flex items-center gap-2" href="#">
+<span>Continue to Step 3: Funding Lock</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right Escrow Ledger Sidebar (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md sticky top-20">
+<!-- Escrow Summary Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">account_balance_wallet</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Escrow Ledger</span>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded font-mono font-medium">#UK-5028</span>
+</div>
+<!-- Milestones Breakdown -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low p-space-sm rounded-lg">
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Milestone 1: 60s YouTube Integration
+                </span>
+<span class="font-semibold">£1,200.00</span>
+</div>
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                  Milestone 2: Spark Ads Whitelisting (30d)
+                </span>
+<span class="font-semibold">£600.00</span>
+</div>
+<div class="h-[1px] bg-outline-variant/30 my-1"></div>
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Gross Creator Compensation</span>
+<span class="font-bold text-on-surface">£1,800.00</span>
+</div>
+</div>
+<!-- Fee Line & Grand Total -->
+<div class="flex flex-col gap-1.5 text-on-surface">
+<div class="flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span class="flex items-center gap-1">
+                  Pactly Custody Fee (6%)
+                  <span class="material-symbols-outlined text-[14px] text-outline cursor-help" title="Brand absorbed fee. Covers FCA trust segregation, automated dispute refereeing, and real-time Faster Payments rails.">info</span>
+</span>
+<span class="text-on-surface">£108.00</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-secondary font-medium">
+<span>Fee Policy</span>
+<span>Brand Absorbed (Zero Creator Fee)</span>
+</div>
+</div>
+<!-- Total Escrow Obligation High Contrast Box -->
+<div class="bg-primary text-on-primary p-space-md rounded-xl flex flex-col gap-1 shadow-inner">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary-fixed-dim">Required Escrow Lock</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl font-bold tracking-tight">£1,908.00</span>
+<span class="font-label-sm text-label-sm bg-primary-container px-2 py-0.5 rounded text-on-primary">GBP Protected</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-primary-container leading-tight mt-1">
+                Held in ring-fenced Stripe Connect custodial trust under UK Law.
+              </span>
+</div>
+<!-- Assigned Counterparty Mini Widget -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-1.5">
+<div class="font-label-sm text-label-sm text-on-surface-variant font-semibold uppercase tracking-wider">Assigned Payee</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold">CC</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Charlotte Clark</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-medium flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">bolt</span> FPS Ready
+                </span>
+</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant flex items-center justify-between pt-1">
+<span>Dispute Cap:</span>
+<span class="font-semibold text-on-surface">£75 Max Arbitral Fee</span>
+</div>
+</div>
+<!-- Fast Action Primary Button -->
+<a class="w-full py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg font-semibold shadow text-center transition-all flex items-center justify-center gap-2" href="#">
+<span>Continue to Step 3: Funding Lock</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<!-- Regulatory Trust Box -->
+<div class="bg-surface-container-high/60 p-space-sm rounded-lg flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">shield</span>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">FCA Regulated Custodial Safeguard</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant leading-normal">
+                  Funds will be transferred to an insolvency-remote client escrow account upon Step 3 authorization. The assigned creator cannot access funds until milestone completion is verified.
+                </span>
+</div>
+</div>
+</div>
+<!-- Quick FAQ / Security Assurance Pill Box -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-2">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface-variant uppercase tracking-wider">Custody Guarantees</span>
+<div class="flex items-center gap-2 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>NatWest Ring-Fenced Account</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Automated Deliverable Signature Tracking</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>14-Day Inactive Auto-Release Rule</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-space-xl"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row justify-between items-center gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-sm"><img alt="Pactly Logo" class="h-6 w-auto object-contain grayscale opacity-70" src="https://lh3.googleusercontent.com/aida/AEtjO1WhJfALA_YZ_KbKMs7dakQ1l5nhaNfLk6nHsB2RmkXizWzVjcrbR5d1xBGP5gAUhkPbkJPMdMkgwEaVnRqgFKYSqmFMdZfMgi0QohE8lT-eJHqrzLGLdGu_s3l2UdwKdZ_QBWU7kYq9xfsCSrGW-JM0qG5frXTv4xO8LexXis2Wkt9cAUSjJiI7YvV7DyGaErFsEhnYEJWe73kLDU1KoI8KHKUGF5qtaDXKj1PuE6V1ivfogZ2EWFn8iEMg"/><span class="font-label-md text-label-md">© 2025 Pactly Escrow Ltd. Registered in England &amp; Wales (No. 14298102). Regulated trust custody rails via FCA authorised institutions.</span></div><div class="flex items-center gap-space-lg font-label-md text-label-md"><a class="hover:text-on-surface transition-colors" data-path="terms-and-jurisdiction" href="#">English Commercial Jurisdiction</a><a class="hover:text-on-surface transition-colors" data-path="fee-structure" href="#">6% Fixed Escrow Fee</a><a class="hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Arbitration &amp; Security</a></div></div></footer></body></html>

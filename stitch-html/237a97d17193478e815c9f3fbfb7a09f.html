@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"outline-variant":"#c5c5d7","surface-container-low":"#f1f3ff","on-secondary-container":"#00725b","on-secondary":"#ffffff","on-error-container":"#93000a","primary-container":"#3b4fe0","on-surface-variant":"#454655","tertiary-fixed":"#ffdead","tertiary-container":"#825900","background":"#f9f9ff","on-error":"#ffffff","surface-tint":"#384cdd","on-background":"#141b2b","on-secondary-fixed":"#002018","outline":"#757686","on-primary-fixed-variant":"#172ec6","surface-container-highest":"#dce2f7","on-secondary-fixed-variant":"#005140","error-container":"#ffdad6","on-primary":"#ffffff","on-primary-container":"#d8daff","surface-container-high":"#e1e8fd","surface":"#f9f9ff","inverse-surface":"#293040","inverse-on-surface":"#edf0ff","error":"#ba1a1a","on-tertiary-fixed-variant":"#604100","on-tertiary":"#ffffff","primary-fixed-dim":"#bcc2ff","secondary-fixed-dim":"#44deb7","on-tertiary-fixed":"#281900","secondary":"#006b56","on-surface":"#141b2b","surface-bright":"#f9f9ff","on-tertiary-container":"#ffd699","on-primary-fixed":"#000c62","primary":"#1b32c8","surface-dim":"#d3daef","surface-container":"#e9edff","secondary-fixed":"#67fbd3","secondary-container":"#67fbd3","primary-fixed":"#dfe0ff","surface-variant":"#dce2f7","surface-container-lowest":"#ffffff","tertiary-fixed-dim":"#fabc50","tertiary":"#634300","inverse-primary":"#bcc2ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","gutter-mobile":"1rem","gutter":"1.5rem","margin-mobile":"1rem","space-sm":"0.5rem","margin":"2rem","space-xl":"2rem","space-xs":"0.25rem","space-lg":"1.5rem"},"fontFamily":{"body-lg":["Inter"],"headline-lg":["Inter"],"body-sm":["Inter"],"headline-lg-mobile":["Inter"],"label-sm":["Inter"],"body-md":["Inter"],"label-md":["Inter"],"headline-md":["Inter"],"headline-xl":["Inter"],"label-lg":["Inter"],"headline-sm":["Inter"],"headline-xl-mobile":["Inter"]},"fontSize":{"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-lg-mobile":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"500"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs"><div class="w-7 h-7 rounded-lg bg-primary-container flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">verified_user</span></div><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-semibold">Pactly</span></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-label-md rounded-lg"><a aria-current="page" class="px-space-sm py-1.5 transition-colors bg-surface-container-high text-primary font-label-md rounded-lg" data-path="deals-settlement" href="#">Deals</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="invitations" href="#">Invitations</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="profile" href="#">Profile</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="settings" href="#">Settings</a><a class="px-space-sm py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Help & Legal</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs bg-surface-container-low px-3 py-1 rounded-full"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Custody:</span><span class="font-label-md text-label-md text-on-surface font-semibold">£0.00 reconciled</span></div><div class="flex items-center gap-space-sm pl-space-xs"><div class="text-right hidden md:block"><div class="font-label-md text-label-md text-on-surface leading-tight font-medium">David Vance</div><div class="font-label-sm text-label-sm text-on-surface-variant">Lumina Studio • Brand</div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full relative min-h-screen">
+<!-- Dimmed & Blurred Realistic Background Layer simulating Completed Deal #UK-5028 Audit & Settlement -->
+<div aria-hidden="true" class="w-full max-w-[1200px] mx-auto px-margin py-space-lg filter blur-[6px] opacity-45 pointer-events-none select-none">
+<div class="flex items-center justify-between pb-space-md border-b border-outline-variant/30 mb-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/30 text-secondary font-label-md">Settled & Archived</span>
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Deal #UK-5028: Lumina Studio Ltd × Charlotte Emily Clark</h1>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Reconciled Barclays Vault #A-8291</span>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+</div>
+</div>
+<!-- Background Mock Dashboard Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mb-space-lg">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-outline-variant/20">
+<div class="font-label-sm text-on-surface-variant uppercase tracking-wider">Total Settlement</div>
+<div class="font-headline-lg text-on-surface mt-1">£2,226.00</div>
+<div class="font-body-sm text-secondary mt-1">100% Disbursed to Creator</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-outline-variant/20">
+<div class="font-label-sm text-on-surface-variant uppercase tracking-wider">Discharge Status</div>
+<div class="font-headline-lg text-secondary mt-1">Zero Residual</div>
+<div class="font-body-sm text-on-surface-variant mt-1">Barclays Client Segregated Acc</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm border border-outline-variant/20">
+<div class="font-label-sm text-on-surface-variant uppercase tracking-wider">HMRC Audit Ledger</div>
+<div class="font-headline-lg text-on-surface mt-1">Ready for Filing</div>
+<div class="font-body-sm text-on-surface-variant mt-1">FY 2026/27 MTD Compliant</div>
+</div>
+</div>
+</div>
+<!-- Modal Backdrop Layer -->
+<div class="fixed inset-0 z-50 bg-[#111827]/50 backdrop-blur-md flex items-center justify-center p-3 sm:p-space-md md:p-space-lg overflow-y-auto">
+<!-- Elevated Modal Window -->
+<div class="relative w-full max-w-[920px] my-auto bg-surface-container-lowest rounded-xl shadow-2xl overflow-hidden flex flex-col border border-outline-variant/30 animate-in fade-in zoom-in-95 duration-200">
+<!-- Top Subtle Security Gradient Bar -->
+<div class="h-1.5 w-full bg-gradient-to-r from-primary via-primary-container to-secondary"></div>
+<!-- MODAL HEADER -->
+<div class="px-space-md sm:px-space-xl pt-space-lg pb-space-md border-b border-surface-container">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-1.5">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-secondary/10 text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+                HMRC STATUTORY COMPLIANT • TAX YEAR 2026/27
+              </span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-on-surface-variant tracking-mono font-medium">
+                DEAL REF: #UK-5028
+              </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-primary/10 text-primary font-label-sm font-medium">
+<span class="material-symbols-outlined text-[12px]">enhanced_encryption</span>
+                eIDAS Validated
+              </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1">
+              Export Statutory Tax & Accounting Packet
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[760px] leading-relaxed">
+              Complete verifiable audit package for UK Corporation Tax, VAT reporting, and custodial escrow reconciliation under English Commercial Law (Model 2.4). Pre-formatted for HMRC Making Tax Digital (MTD).
+            </p>
+</div>
+<!-- Close Action -->
+<button aria-label="Close Export Modal" class="p-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors shrink-0" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Metric Badges Row -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-space-md pt-space-sm border-t border-surface-container-low">
+<div class="flex flex-col bg-surface-container-low/70 px-3 py-2 rounded-lg">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Settlement Value</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">£2,226.00 <span class="font-label-sm text-on-surface-variant">GBP</span></span>
+</div>
+<div class="flex flex-col bg-surface-container-low/70 px-3 py-2 rounded-lg">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">VAT Treatment</span>
+<span class="font-label-lg text-label-lg text-secondary font-semibold">Exempt / S55A Notice</span>
+</div>
+<div class="flex flex-col bg-surface-container-low/70 px-3 py-2 rounded-lg">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Barclays Custody</span>
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">£0.00 Reconciled</span>
+</div>
+<div class="flex flex-col bg-surface-container-low/70 px-3 py-2 rounded-lg">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Audit Checksum</span>
+<span class="font-label-sm text-on-surface-variant truncate font-mono mt-0.5">SHA256: 9b2d8e41</span>
+</div>
+</div>
+</div>
+<!-- MODAL BODY (Scrollable Area) -->
+<div class="px-space-md sm:px-space-xl py-space-md max-h-[calc(88vh-220px)] overflow-y-auto space-y-space-lg">
+<!-- SECTION 1: INCLUDED AUDIT DOCUMENTS (Tabbed Selection Grid) -->
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[19px]">inventory_2</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Included Audit Documents</h3>
+<span class="ml-1.5 px-2 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm font-semibold">4 of 4 selected</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant">
+<button class="font-label-sm text-primary hover:underline" type="button">Select All</button>
+<span>•</span>
+<button class="font-label-sm text-on-surface-variant hover:text-on-surface" type="button">Reset</button>
+</div>
+</div>
+<div class="space-y-2.5">
+<!-- Item 1: VAT Commercial Invoice -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-space-md hover:border-primary/40 transition-colors">
+<div class="flex items-start gap-space-sm">
+<input checked="" class="mt-1 h-4 w-4 rounded accent-primary text-primary focus:ring-primary/30 cursor-pointer" id="doc1" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center justify-between gap-1">
+<label class="font-headline-sm text-[15px] font-semibold text-on-surface cursor-pointer hover:text-primary transition-colors" for="doc1">
+                      Official VAT-Compliant Commercial Invoice
+                    </label>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-on-surface-variant font-mono">PDF/A-3</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-label-sm text-on-surface-variant">342 KB</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 mt-2 text-on-surface-variant font-body-sm text-[12.5px] bg-surface-container-low/60 p-2.5 rounded-lg">
+<div>
+<span class="font-medium text-on-surface">Invoice Ref:</span> #PACT-2026-UK5028-INV
+                    </div>
+<div>
+<span class="font-medium text-on-surface">Tax Point:</span> 25 December 2026
+                    </div>
+<div>
+<span class="font-medium text-on-surface">Supplier:</span> Charlotte Emily Clark (Sole Trader, Non-VAT, <£90k threshold)
+                    </div>
+<div>
+<span class="font-medium text-on-surface">Buyer:</span> Lumina Studio Ltd (VAT Reg: GB 492 8104 22)
+                    </div>
+<div>
+<span class="font-medium text-on-surface">Creator Consideration:</span> £2,100.00 (M1: £1,400 + M2: £700)
+                    </div>
+<div>
+<span class="font-medium text-on-surface">Platform Escrow Fee:</span> £126.00 + £25.20 VAT (£151.20 Gross)
+                    </div>
+</div>
+<div class="flex items-center gap-1.5 mt-2 text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+                    Section 55A VATA 1994 reverse charge & small trader statutory disclaimer verified
+                  </div>
+</div>
+</div>
+</div>
+<!-- Item 2: Barclays Custody Ledger -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-space-md hover:border-primary/40 transition-colors">
+<div class="flex items-start gap-space-sm">
+<input checked="" class="mt-1 h-4 w-4 rounded accent-primary text-primary focus:ring-primary/30 cursor-pointer" id="doc2" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center justify-between gap-1">
+<label class="font-headline-sm text-[15px] font-semibold text-on-surface cursor-pointer hover:text-primary transition-colors" for="doc2">
+                      Barclays Bank Trust Custody Ledger & Discharge Certificate
+                    </label>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-on-surface-variant font-mono">PDF</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-label-sm text-on-surface-variant">218 KB</span>
+</div>
+</div>
+<p class="font-body-sm text-[13px] text-on-surface-variant mt-1">
+                    Statutory escrow account statement from Barclays Bank UK PLC Client Trust Vault <span class="font-mono text-on-surface font-medium">#A-8291-UKM2</span>.
+                  </p>
+<div class="mt-2 text-on-surface-variant font-body-sm text-[12px] bg-surface-container-low/60 p-2.5 rounded-lg space-y-1">
+<div class="flex justify-between items-center text-on-surface">
+<span>Initial Ring-Fenced Inbound Deposit (14 Nov 2026)</span>
+<span class="font-mono font-medium">+£2,226.00</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>FPS Disbursement M1 • FPS-20261125-GB89-84920194</span>
+<span class="font-mono text-error font-medium">-£1,400.00</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>FPS Disbursement M2 • FPS-20261126-GB89-91823011</span>
+<span class="font-mono text-error font-medium">-£700.00</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant">
+<span>Pactly Safeguarding & Custody Fee Settled</span>
+<span class="font-mono text-error font-medium">-£126.00</span>
+</div>
+<div class="flex justify-between items-center pt-1 border-t border-outline-variant/30 font-semibold text-on-surface">
+<span class="text-secondary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 
+                        Closing Ring-Fenced Liability
+                      </span>
+<span class="font-mono">£0.00 RECONCILED</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Item 3: Immutable Audit Trail JSON & CSV -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-space-md hover:border-primary/40 transition-colors">
+<div class="flex items-start gap-space-sm">
+<input checked="" class="mt-1 h-4 w-4 rounded accent-primary text-primary focus:ring-primary/30 cursor-pointer" id="doc3" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center justify-between gap-1">
+<label class="font-headline-sm text-[15px] font-semibold text-on-surface cursor-pointer hover:text-primary transition-colors" for="doc3">
+                      Immutable Cryptographic Audit Trail (.JSON & .CSV)
+                    </label>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-on-surface-variant font-mono">JSON + CSV</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-label-sm text-on-surface-variant">84 KB</span>
+</div>
+</div>
+<p class="font-body-sm text-[12.5px] text-on-surface-variant mt-1">
+                    Complete state-machine log containing sequential SHA-256 event hashes, UTC microsecond timestamps, YouTube Data API v3 verification payloads, and TikTok Spark Ads authorization token expiration receipts.
+                  </p>
+</div>
+</div>
+</div>
+<!-- Item 4: Model 2.4 Executed Agreement -->
+<div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-space-md hover:border-primary/40 transition-colors">
+<div class="flex items-start gap-space-sm">
+<input checked="" class="mt-1 h-4 w-4 rounded accent-primary text-primary focus:ring-primary/30 cursor-pointer" id="doc4" type="checkbox"/>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center justify-between gap-1">
+<label class="font-headline-sm text-[15px] font-semibold text-on-surface cursor-pointer hover:text-primary transition-colors" for="doc4">
+                      English Commercial Law Model 2.4 Agreement & Schedules
+                    </label>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-on-surface-variant font-mono">PDF/A-1</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high font-label-sm text-on-surface-variant">510 KB</span>
+</div>
+</div>
+<p class="font-body-sm text-[12.5px] text-on-surface-variant mt-1">
+                    Complete countersigned agreement, Schedule 1 (YouTube 60s Integration specs), Schedule 2 (Spark Ads 30-day licensing terms), and Harrison & Croft LLP fast-track arbitration discharge addendum.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 2: HMRC MTD & ACCOUNTING BREAKDOWN (Categorization Matrix) -->
+<div class="bg-surface-container-low/70 rounded-xl p-space-md border border-outline-variant/20">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-on-surface text-[18px]">account_balance</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">HMRC MTD Ledger & Chart of Accounts Mapping</h4>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary/10 text-secondary font-label-sm font-semibold">Ready for Year-End Filing</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md mt-2">
+<!-- Ledger Allocation Table -->
+<div class="bg-surface-container-lowest rounded-lg p-3 border border-outline-variant/20">
+<div class="font-label-md text-on-surface font-semibold mb-2">Recommended Nominal Account Codes</div>
+<div class="space-y-2 text-body-sm text-[12.5px]">
+<div class="flex justify-between items-center pb-1.5 border-b border-surface-container">
+<div>
+<span class="font-mono font-medium text-primary bg-primary/5 px-1.5 py-0.5 rounded">6200</span>
+<span class="ml-1.5 text-on-surface">Creator Influencer Spend</span>
+</div>
+<span class="font-mono font-medium text-on-surface">£2,100.00</span>
+</div>
+<div class="flex justify-between items-center pb-1.5 border-b border-surface-container">
+<div>
+<span class="font-mono font-medium text-primary bg-primary/5 px-1.5 py-0.5 rounded">7900</span>
+<span class="ml-1.5 text-on-surface">Escrow Custody Processing</span>
+</div>
+<span class="font-mono font-medium text-on-surface">£126.00</span>
+</div>
+<div class="flex justify-between items-center">
+<div>
+<span class="font-mono font-medium text-primary bg-primary/5 px-1.5 py-0.5 rounded">2201</span>
+<span class="ml-1.5 text-on-surface">Input VAT Claimable (Pactly Fee)</span>
+</div>
+<span class="font-mono font-medium text-secondary">£25.20</span>
+</div>
+</div>
+</div>
+<!-- Statutory Notes -->
+<div class="bg-surface-container-lowest rounded-lg p-3 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="font-label-md text-on-surface font-semibold mb-1">UK Regulatory & AML Custody Safe-Harbor</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant leading-relaxed">
+                  Escrow custody conducted pursuant to Regulation 23 of the <em>Payment Services Regulations 2017 (PSR 2017)</em>. Recipient KYC/eIDAS identification performed by Pactly Technologies Ltd (FCA FRN 841920).
+                </p>
+</div>
+<div class="mt-2 pt-2 border-t border-surface-container flex items-center justify-between text-on-surface-variant font-label-sm">
+<span>Corporation Tax Deductible: 100%</span>
+<span class="text-secondary font-medium">HMRC Section 74 ICTA 1988</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 3: ONE-CLICK SOFTWARE DIRECT SYNC -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Direct Cloud Accounting Sync</span>
+<span class="font-label-sm text-on-surface-variant">Pre-mapped invoice & bill line items</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+<label class="flex items-center justify-between p-2.5 rounded-lg border border-primary bg-primary/5 cursor-pointer">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded bg-primary text-on-primary font-bold text-[11px] flex items-center justify-center">X</div>
+<div class="flex flex-col">
+<span class="font-label-md font-semibold text-on-surface">Xero</span>
+<span class="font-label-sm text-secondary text-[10px]">Connected • Ready</span>
+</div>
+</div>
+<input checked="" class="accent-primary h-3.5 w-3.5" name="acc_sync" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-2.5 rounded-lg border border-outline-variant/40 bg-surface-container-lowest hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded bg-[#2CA01C] text-white font-bold text-[11px] flex items-center justify-center">qb</div>
+<div class="flex flex-col">
+<span class="font-label-md font-semibold text-on-surface">QuickBooks</span>
+<span class="font-label-sm text-on-surface-variant text-[10px]">Available</span>
+</div>
+</div>
+<input class="accent-primary h-3.5 w-3.5" name="acc_sync" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-2.5 rounded-lg border border-outline-variant/40 bg-surface-container-lowest hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded bg-[#005B94] text-white font-bold text-[11px] flex items-center justify-center">FA</div>
+<div class="flex flex-col">
+<span class="font-label-md font-semibold text-on-surface">FreeAgent</span>
+<span class="font-label-sm text-on-surface-variant text-[10px]">Ready</span>
+</div>
+</div>
+<input class="accent-primary h-3.5 w-3.5" name="acc_sync" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-2.5 rounded-lg border border-outline-variant/40 bg-surface-container-lowest hover:bg-surface-container-low cursor-pointer transition-colors">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded bg-[#00DC00] text-[#002018] font-bold text-[11px] flex items-center justify-center">S</div>
+<div class="flex flex-col">
+<span class="font-label-md font-semibold text-on-surface">Sage Cloud</span>
+<span class="font-label-sm text-on-surface-variant text-[10px]">Manual Map</span>
+</div>
+</div>
+<input class="accent-primary h-3.5 w-3.5" name="acc_sync" type="radio"/>
+</label>
+</div>
+</div>
+<!-- Automated Notification Targets -->
+<div class="flex flex-wrap items-center justify-between gap-2 p-3 bg-surface-container-low/50 rounded-lg text-body-sm text-[12.5px] text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px]">forward_to_inbox</span>
+<span>Send automated signed packet copy:</span>
+</div>
+<div class="flex items-center gap-3">
+<label class="flex items-center gap-1.5 cursor-pointer">
+<input checked="" class="accent-primary h-3.5 w-3.5 rounded" type="checkbox"/>
+<span class="text-on-surface">david@lumina.io</span>
+</label>
+<label class="flex items-center gap-1.5 cursor-pointer">
+<input checked="" class="accent-primary h-3.5 w-3.5 rounded" type="checkbox"/>
+<span class="text-on-surface">accountant@luminastudio.co.uk</span>
+</label>
+</div>
+</div>
+</div>
+<!-- MODAL FOOTER & EXPORT ACTIONS -->
+<div class="px-space-md sm:px-space-xl py-space-md bg-surface-container-lowest border-t border-surface-container flex flex-col gap-3">
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<!-- Cryptographic Seal Note -->
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<div class="font-label-sm text-[11.5px] leading-tight">
+              Cryptographically signed by Pactly Escrow Technologies Ltd.<br/>
+<span class="font-mono text-outline">SHA-256: 9b2d8e41f029ce81aa4921f002b801a2</span>
+</div>
+</div>
+<!-- Buttons -->
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-outline-variant/40 bg-surface hover:bg-surface-container font-label-md text-on-surface transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">sync_alt</span>
+              Push to Xero
+            </button>
+<button class="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-primary hover:bg-[#3242C2] text-on-primary font-label-md font-semibold transition-all shadow-md hover:shadow-lg active:scale-[0.98]" type="button">
+<span class="material-symbols-outlined text-[19px]">download</span>
+              Download Complete ZIP Packet (.ZIP • 1.15 MB)
+            </button>
+</div>
+</div>
+<!-- Statutory Retention Notice -->
+<div class="text-center sm:text-left font-label-sm text-[11px] text-on-surface-variant/80 border-t border-surface-container-low pt-2">
+          Statutory Record-Keeping Notice: Under Section 386 of the Companies Act 2006 and HMRC Notice 700/21, Lumina Studio Ltd must retain this statutory tax bundle for a minimum period of 6 years from the end of the 2026/27 financial period.
+        </div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="max-w-[1200px] mx-auto px-margin"><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pb-space-lg"><div class="flex items-center gap-space-sm"><div class="w-6 h-6 rounded-lg bg-surface-container flex items-center justify-center"><span class="material-symbols-outlined text-primary text-[15px]">lock</span></div><span class="font-label-md text-label-md text-on-surface-variant">FCA Authorised Representative (FRN 841920) • Ring-fenced Barclays Bank UK Client Custody</span></div><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Audit Protocol</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Statutory Custody Terms</a><a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Dispute Arbitration</a></div></div><div class="text-center md:text-left font-body-sm text-body-sm text-on-surface-variant">© 2025 Pactly Escrow Technologies Ltd. Registered in England & Wales (No. 12984021). All escrowed funds held in designated trust accounts.</div></div></footer></body></html>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "on-secondary-fixed": "#002018",
+        "on-secondary": "#ffffff",
+        "error": "#ba1a1a",
+        "surface-container-highest": "#dce2f7",
+        "inverse-on-surface": "#edf0ff",
+        "on-secondary-fixed-variant": "#005140",
+        "surface-variant": "#dce2f7",
+        "primary": "#1b32c8",
+        "on-error-container": "#93000a",
+        "on-background": "#141b2b",
+        "on-primary-container": "#d8daff",
+        "tertiary-fixed": "#ffdead",
+        "surface-dim": "#d3daef",
+        "on-primary": "#ffffff",
+        "on-primary-fixed-variant": "#172ec6",
+        "tertiary-fixed-dim": "#fabc50",
+        "primary-fixed-dim": "#bcc2ff",
+        "surface-bright": "#f9f9ff",
+        "outline-variant": "#c5c5d7",
+        "on-surface-variant": "#454655",
+        "on-primary-fixed": "#000c62",
+        "surface-container": "#e9edff",
+        "primary-container": "#3b4fe0",
+        "primary-fixed": "#dfe0ff",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed-variant": "#604100",
+        "surface-container-low": "#f1f3ff",
+        "surface-container-high": "#e1e8fd",
+        "on-tertiary-fixed": "#281900",
+        "error-container": "#ffdad6",
+        "outline": "#757686",
+        "secondary-fixed": "#67fbd3",
+        "tertiary-container": "#825900",
+        "secondary": "#006b56",
+        "secondary-fixed-dim": "#44deb7",
+        "tertiary": "#634300",
+        "background": "#f9f9ff",
+        "inverse-surface": "#293040",
+        "on-tertiary-container": "#ffd699",
+        "on-secondary-container": "#00725b",
+        "on-tertiary": "#ffffff",
+        "surface": "#f9f9ff",
+        "surface-tint": "#384cdd",
+        "secondary-container": "#67fbd3",
+        "on-error": "#ffffff",
+        "inverse-primary": "#bcc2ff",
+        "on-surface": "#141b2b"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "space-md": "1rem",
+        "space-xl": "2rem",
+        "space-lg": "1.5rem",
+        "gutter": "1.5rem",
+        "space-xs": "0.25rem",
+        "margin": "2rem",
+        "space-sm": "0.5rem",
+        "gutter-mobile": "1rem",
+        "margin-mobile": "1rem"
+      },
+      "fontFamily": {
+        "headline-xl": ["Inter"],
+        "headline-lg": ["Inter"],
+        "label-md": ["Inter"],
+        "body-md": ["Inter"],
+        "headline-md": ["Inter"],
+        "headline-sm": ["Inter"],
+        "label-lg": ["Inter"],
+        "body-lg": ["Inter"],
+        "headline-xl-mobile": ["Inter"],
+        "body-sm": ["Inter"],
+        "headline-lg-mobile": ["Inter"],
+        "label-sm": ["Inter"]
+      },
+      "fontSize": {
+        "headline-xl": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+        "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+        "body-md": ["14px", {"lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400"}],
+        "headline-md": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "headline-sm": ["16px", {"lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600"}],
+        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "500"}],
+        "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400"}],
+        "headline-xl-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+        "body-sm": ["13px", {"lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400"}],
+        "headline-lg-mobile": ["22px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+        "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600"}]
+      }
+    }
+  }
+}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full bg-surface-container-low px-margin py-1.5 flex items-center justify-between border-b border-outline-variant/30 text-on-surface-variant"><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="flex h-2 w-2 rounded-full bg-secondary"></span><span>English Law Jurisdiction</span><span class="text-outline">·</span><span>6% Flat Platform Fee</span><span class="text-outline">·</span><span>Custodial Stripe Escrow</span></div><div class="flex items-center gap-space-md font-label-sm text-label-sm"><span class="flex items-center gap-1 text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-secondary">lock</span>FCA Regulated Partner Rails</span></div></div><div class="h-16 max-w-[1200px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><div class="flex items-center gap-space-sm"><img alt="Pactly Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WhJfALA_YZ_KbKMs7dakQ1l5nhaNfLk6nHsB2RmkXizWzVjcrbR5d1xBGP5gAUhkPbkJPMdMkgwEaVnRqgFKYSqmFMdZfMgi0QohE8lT-eJHqrzLGLdGu_s3l2UdwKdZ_QBWU7kYq9xfsCSrGW-JM0qG5frXTv4xO8LexXis2Wkt9cAUSjJiI7YvV7DyGaErFsEhnYEJWe73kLDU1KoI8KHKUGF5qtaDXKj1PuE6V1ivfogZ2EWFn8iEMg"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Pactly</span></div><nav class="hidden lg:flex items-center gap-space-sm" data-active-classes="bg-surface-container-high text-primary font-semibold rounded-lg"><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="deals" href="#">Deals</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="contracts" href="#">Contracts</a><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-primary font-semibold rounded-lg" data-path="how-escrow-works" href="#">How Escrow Works</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Help &amp; Legal</a></nav></div><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-block px-3 py-2 font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="login" href="#">Log in</a><a class="px-3.5 py-2 rounded-lg border border-outline-variant bg-surface-container-lowest font-label-lg text-label-lg text-on-surface hover:bg-surface-container hover:text-on-surface transition-colors" data-path="brand-onboarding" href="#">I'm a brand</a><a class="px-3.5 py-2 rounded-lg bg-primary-container font-label-lg text-label-lg text-on-primary hover:bg-primary transition-colors" data-path="creator-onboarding" href="#">I'm a creator</a><div class="ml-space-xs w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle ambient glow background decoration -->
+<div class="relative w-full overflow-hidden">
+<div class="pointer-events-none absolute -top-40 right-1/2 translate-x-1/2 w-[900px] h-[450px] bg-gradient-to-b from-primary-fixed/40 via-surface-container-high/20 to-transparent blur-3xl opacity-70"></div>
+<!-- HERO SECTION -->
+<section class="relative max-w-[1200px] mx-auto px-margin pt-12 pb-20 lg:pt-20 lg:pb-28">
+<div class="flex flex-col items-center text-center max-w-[880px] mx-auto">
+<!-- Trust badge Pill -->
+<div class="inline-flex items-center gap-space-sm px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant shadow-sm mb-8 transition-all hover:bg-surface-container-high">
+<span class="flex h-2 w-2 rounded-full bg-secondary-fixed-dim"></span>
+<span class="font-label-sm text-label-sm tracking-wide">Regulated UK Escrow Architecture</span>
+<span class="text-outline-variant">·</span>
+<span class="font-label-sm text-label-sm">Governed under English Law</span>
+<span class="text-outline-variant">·</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">6% Flat Fee</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-headline-xl text-[44px] leading-[52px] sm:text-[56px] sm:leading-[64px] lg:text-[68px] lg:leading-[76px] tracking-tight text-on-surface font-semibold mb-6">
+          Neither side has to <br class="hidden sm:inline"/>
+<span class="text-primary-container relative inline-block">
+            go first.
+            <svg class="absolute -bottom-2 left-0 w-full h-3 text-secondary-fixed-dim/70" preserveaspectratio="none" viewbox="0 0 100 20">
+<path d="M0,15 Q50,0 100,15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+</span>
+</h1>
+<!-- Subhead -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[680px] mx-auto mb-10 leading-relaxed">
+          Pactly holds the brand’s payment and the signed contract in escrow until the post is live and verified. Simple, procedural protection for a straightforward 6% fee.
+        </p>
+<!-- CTA Row -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full sm:w-auto mb-14">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary transition-all duration-200" data-path="brand-onboarding" href="#">
+<span>I'm a brand — Start a deal</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-lg text-label-lg shadow-sm hover:bg-surface-container hover:shadow transition-all duration-200" data-path="creator-onboarding" href="#">
+<span>I'm a creator — Accept terms</span>
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+</a>
+</div>
+<!-- Simulated Live Contract Voucher Teaser Card -->
+<div class="w-full max-w-[760px] bg-surface-container-lowest rounded-xl p-5 shadow-sm text-left flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">account_balance_wallet</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Escrow Deposit Protection #UK-4891</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed/20 text-on-secondary-fixed-variant font-label-sm text-label-sm">Funded &amp; Secured</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lumina Studio × @charlotte_creator · 1x Verified Reel + 30-Day Usage</p>
+</div>
+</div>
+<div class="flex items-center gap-4 self-end md:self-auto">
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase tracking-wider">Custody Balance</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">£2,400.00</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-fixed-variant text-[18px]">lock</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Social Proof Strip -->
+<div class="mt-20 pt-10">
+<p class="text-center font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-8">
+          Brands &amp; agencies securing deals via Pactly
+        </p>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 items-center justify-items-center opacity-70">
+<div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
+<span class="material-symbols-outlined text-[20px] text-primary">blur_on</span> Lumina Studio
+          </div>
+<div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
+<span class="material-symbols-outlined text-[20px] text-secondary">token</span> Finova UK
+          </div>
+<div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
+<span class="material-symbols-outlined text-[20px] text-tertiary">spa</span> Bloom &amp; Wild Labs
+          </div>
+<div class="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
+<span class="material-symbols-outlined text-[20px] text-primary">change_history</span> Kinto Digital
+          </div>
+<div class="col-span-2 sm:col-span-1 flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
+<span class="material-symbols-outlined text-[20px] text-on-surface">diamond</span> Vero Apparel
+          </div>
+</div>
+</div>
+</section>
+</div>
+<!-- 4-STEP ESCROW FLOW -->
+<section class="w-full bg-surface-container-low py-20 lg:py-28">
+<div class="max-w-[1200px] mx-auto px-margin">
+<div class="text-center max-w-[700px] mx-auto mb-16">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[14px]">sync_alt</span>
+<span>Procedural Lifecycle</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold mb-3">
+          The 4-Step Escrow Protocol
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Neither party holds leverage over the other. Every deliverable, verification check, and payout step happens strictly in clear daylight.
+        </p>
+</div>
+<!-- Horizontal Flow Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between transition-all hover:shadow-md">
+<div>
+<div class="flex items-center justify-between mb-5">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Milestone 01</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-semibold">Agree terms</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Solicitor-drafted clauses generated from a 34-question brief. Fixed upon dual e-signature.
+            </p>
+</div>
+<div class="bg-surface-container rounded-lg p-3 text-on-surface-variant flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">draw</span>
+<span class="font-label-sm text-label-sm">Standard UK Commercial Contract</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between transition-all hover:shadow-md">
+<div>
+<div class="flex items-center justify-between mb-5">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Milestone 02</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-semibold">Brand pays into escrow</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Deposit sits segregated in Pactly's account via Stripe. Money never moves without an instruction.
+            </p>
+</div>
+<div class="bg-surface-container rounded-lg p-3 text-on-surface-variant flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm">Segregated Stripe Client Vault</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between transition-all hover:shadow-md">
+<div>
+<div class="flex items-center justify-between mb-5">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">3</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Milestone 03</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-semibold">Creator delivers</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Creator drafts, brand approves, post goes live. Automated API checks verify hashtags and live status.
+            </p>
+</div>
+<div class="bg-surface-container rounded-lg p-3 text-on-surface-variant flex items-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px]">smart_toy</span>
+<span class="font-label-sm text-label-sm">Live API Hashtag &amp; Reel Verification</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm flex flex-col justify-between transition-all hover:shadow-md">
+<div>
+<div class="flex items-center justify-between mb-5">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-headline-sm text-headline-sm flex items-center justify-center font-bold">4</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">Instant Release</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-semibold">Funds release</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              Brand confirms within 3 working days (or automatic sweep approval). Funds release straight to UK bank account.
+            </p>
+</div>
+<div class="bg-surface-container rounded-lg p-3 text-on-surface-variant flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">payments</span>
+<span class="font-label-sm text-label-sm">Same-Day Faster Payments BACS</span>
+</div>
+</div>
+</div>
+<!-- Trust Visual Footnote -->
+<div class="mt-12 bg-surface-container rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4 max-w-[920px] mx-auto text-on-surface-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[24px]">gavel</span>
+<span class="font-body-sm text-body-sm">
+            Contracts cannot be unilaterally edited after signature. Post verification triggers contractual release within 72 hours.
+          </span>
+</div>
+<a class="font-label-sm text-label-sm font-semibold text-primary hover:underline whitespace-nowrap" data-path="how-escrow-works" href="#">
+          Read Escrow Rulebook →
+        </a>
+</div>
+</div>
+</section>
+<!-- TRUST & LEGAL GUARANTEES (THREE PLAIN CLAIMS) -->
+<section class="max-w-[1200px] mx-auto px-margin py-20 lg:py-28 w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-[620px]">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[14px] text-secondary">security</span>
+<span>Zero Ambiguity</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold mb-3">
+          Trust &amp; Legal Guarantees
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Pactly replaces vague WhatsApp promises and unpaid invoice chases with clear, enforceable commercial infrastructure.
+        </p>
+</div>
+<div class="text-left md:text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Standard Resolution Window</span>
+<span class="font-headline-md text-headline-md text-primary font-semibold">Under 48 Hours</span>
+</div>
+</div>
+<!-- 3 Plain Claims Bento -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined text-[26px]">contract</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 font-semibold">Solicitor-drafted contracts</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Formally structured under English law. Clauses cannot be unilaterally reopened once dual-signed.
+          </p>
+</div>
+<div class="pt-4 bg-surface-container-low rounded-lg p-3 text-on-surface-variant">
+<p class="font-body-sm text-body-sm">
+<strong class="font-semibold text-on-surface">Legal binding:</strong> Clear IP transfer and organic repost rights defined before any creative work starts.
+          </p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined text-[26px]">shield_person</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 font-semibold">Payments held via Stripe</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Real GBP escrow custody. Segregated funds never mingled with operations.
+          </p>
+</div>
+<div class="pt-4 bg-surface-container-low rounded-lg p-3 text-on-surface-variant">
+<p class="font-body-sm text-body-sm">
+<strong class="font-semibold text-on-surface">FCA Partner Rails:</strong> Funds rest in ring-fenced safeguarding vaults until agreed milestone release.
+          </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow duration-200">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-6">
+<span class="material-symbols-outlined text-[26px]">alarm_on</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 font-semibold">Automatic release or refund</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Governed purely by signed milestones and deadline clocks. Zero arbitrary judgement calls.
+          </p>
+</div>
+<div class="pt-4 bg-surface-container-low rounded-lg p-3 text-on-surface-variant">
+<p class="font-body-sm text-body-sm">
+<strong class="font-semibold text-on-surface">Clockwork execution:</strong> Inactivity after post delivery triggers auto-release after 72 hours.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- DUAL CALLOUT / SIDE-BY-SIDE AUDIENCE PERSPECTIVE -->
+<section class="max-w-[1200px] mx-auto px-margin pb-20 w-full">
+<div class="bg-surface-container-high rounded-xl p-8 md:p-12 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- For Brands -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm mb-4">
+<span class="material-symbols-outlined text-[14px]">storefront</span>
+<span>For Marketing Directors &amp; Agencies</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 font-semibold">
+              Stop paying upfront into creator ghosting
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              Eliminate the risk of unfulfilled deliverables, missed launch windows, or unauthorized music usage. Your campaign capital stays safe until the brief is verified in public.
+            </p>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-surface-variant mb-8">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Automatic full refund if post deadline passes unfulfilled</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Pre-cleared IP usage licenses included with English law standard</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Consolidated VAT invoicing for simplified agency bookkeeping</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary transition-colors" data-path="brand-onboarding" href="#">
+<span>Create Brand Escrow Pact</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- For Creators -->
+<div class="bg-surface-container-lowest rounded-xl p-6 sm:p-8 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed/30 text-on-secondary-fixed-variant font-label-sm text-label-sm mb-4">
+<span class="material-symbols-outlined text-[14px]">videocam</span>
+<span>For Independent UK Creators &amp; Managers</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 font-semibold">
+              Never chase net-60 day invoices again
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+              Know with 100% certainty that the brand has deposited the money before you film a single frame. Publish with complete confidence of rapid bank transfer.
+            </p>
+<ul class="space-y-3 font-body-sm text-body-sm text-on-surface-variant mb-8">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Locked escrow verification before creative production starts</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Strict limit of 2 structured revision rounds to prevent scope creep</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+<span>Automated release within 72 hours of live social post confirmation</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" data-path="creator-onboarding" href="#">
+<span>Review Creator Guarantee</span>
+<span class="material-symbols-outlined text-[16px]">launch</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- PLAIN-ENGLISH FAQ -->
+<section class="max-w-[760px] mx-auto px-margin py-16 lg:py-24 w-full">
+<div class="text-center mb-12">
+<div class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm mb-3">
+<span class="material-symbols-outlined text-[14px]">quiz</span>
+<span>Clear Answers</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold mb-3">
+        Plain-English Escrow FAQ
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+        No dense legal clauses. Here is exactly how payment disputes and milestones function on Pactly.
+      </p>
+</div>
+<!-- Accordion / FAQ List -->
+<div class="space-y-4" id="faq-container">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center justify-between gap-4">
+<span>What if the creator doesn't post?</span>
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
+          The deposit is refunded automatically in full to the brand if the deadline passes without delivery. The creator receives prompt reminders at 48 hours and 12 hours prior to deadline expiry.
+        </p>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center justify-between gap-4">
+<span>What if I'm not happy with the content?</span>
+<span class="material-symbols-outlined text-primary text-[20px]">rate_review</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
+          Draft approval is built into the milestone. You have 2 structured revision rounds before publication. If content materially breaches the agreed brief specifications, Pactly provides instant arbitration based strictly on the original signed agreement.
+        </p>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center justify-between gap-4">
+<span>Who pays the 6% fee?</span>
+<span class="material-symbols-outlined text-primary text-[20px]">percent</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
+          The fee is deducted from the final escrow payout upon confirmed release. No hidden platform subscriptions, no credit card transaction surcharges, and no tiered monthly memberships.
+        </p>
+</div>
+<!-- Item 4 (Bonus Procedural Trust) -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold flex items-center justify-between gap-4">
+<span>How are social post links verified?</span>
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
+          Pactly connects directly with Instagram, TikTok, and YouTube native APIs. Our automated checker verifies that the agreed post permalink exists, contains mandatory brand tags/hashtags, and remains live without early deletion.
+        </p>
+</div>
+</div>
+</section>
+<!-- FINAL CTA BANNER -->
+<section class="max-w-[1200px] mx-auto px-margin pb-20 w-full">
+<div class="bg-surface-container-lowest rounded-xl p-8 sm:p-12 shadow-sm text-center max-w-[880px] mx-auto flex flex-col items-center">
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed/40 flex items-center justify-center text-on-secondary-fixed-variant mb-6">
+<span class="material-symbols-outlined text-[32px]">handshake</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold mb-4">
+        Ready to lock in your next sponsored post?
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[560px] mb-8">
+        Draft your first commercial pact in under 4 minutes. Safe custody, verified release, zero chase.
+      </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full sm:w-auto">
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow hover:bg-primary transition-all" data-path="brand-onboarding" href="#">
+          I'm a brand — Create Pact
+        </a>
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-all" data-path="creator-onboarding" href="#">
+          I'm a creator — Send Link to Brand
+        </a>
+</div>
+</div>
+</section>
+<!-- PROCEDURAL LEGAL NOTICE BANNER (Above App Shell Footer) -->
+<div class="w-full bg-surface-container py-6">
+<div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-4 text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">account_balance</span>
+<span>English Law Escrow Notice · Regulated Segregated Safeguarding Rails (Stripe Payments UK Ltd)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms of Service (v3.2)</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy Policy</a>
+<span class="text-outline-variant">·</span>
+<a class="hover:text-on-surface transition-colors" data-path="cookies" href="#">Cookie Policy</a>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-space-xl"><div class="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row justify-between items-center gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-sm"><img alt="Pactly Logo" class="h-6 w-auto object-contain grayscale opacity-70" src="https://lh3.googleusercontent.com/aida/AEtjO1WhJfALA_YZ_KbKMs7dakQ1l5nhaNfLk6nHsB2RmkXizWzVjcrbR5d1xBGP5gAUhkPbkJPMdMkgwEaVnRqgFKYSqmFMdZfMgi0QohE8lT-eJHqrzLGLdGu_s3l2UdwKdZ_QBWU7kYq9xfsCSrGW-JM0qG5frXTv4xO8LexXis2Wkt9cAUSjJiI7YvV7DyGaErFsEhnYEJWe73kLDU1KoI8KHKUGF5qtaDXKj1PuE6V1ivfogZ2EWFn8iEMg"/><span class="font-label-md text-label-md">© 2025 Pactly Escrow Ltd. Registered in England &amp; Wales. Standard UK Commercial Contracts.</span></div><div class="flex items-center gap-space-lg font-label-md text-label-md"><a class="hover:text-on-surface transition-colors" data-path="terms-and-jurisdiction" href="#">English Law Agreement</a><a class="hover:text-on-surface transition-colors" data-path="fee-structure" href="#">6% Escrow Protocol</a><a class="hover:text-on-surface transition-colors" data-path="help-and-legal" href="#">Security &amp; Disputes</a></div></div></footer></body></html>
