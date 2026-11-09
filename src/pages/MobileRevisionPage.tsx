@@ -1,4 +1,4 @@
-/** Pactly — Mobile Revision Request Modal */
+/** Collabio — Mobile Revision Request Modal */
 export default function MobileRevisionPage() {
   return (
     <>
@@ -232,7 +232,7 @@ export default function MobileRevisionPage() {
                   </div>
                   <div className="relative w-full">
                     <textarea placeholder="Provide exact, actionable guidance based on Schedule 1 requirements..." rows={3} className="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md p-3 rounded-lg placeholder-outline focus:outline-none focus:ring-0 leading-relaxed resize-none shadow-sm">
-                      The on-screen CTA link 'pactly.io/lumina' is slightly obscured by the bottom closed-captions bar between 04:38 and 04:45. Please raise the overlay banner 30px higher so it remains visible on mobile viewers.
+                      The on-screen CTA link 'collabio.io/lumina' is slightly obscured by the bottom closed-captions bar between 04:38 and 04:45. Please raise the overlay banner 30px higher so it remains visible on mobile viewers.
                     </textarea>
                   </div>
                   <div className="flex items-center justify-between text-outline font-label-sm text-label-sm">

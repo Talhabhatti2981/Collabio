@@ -1,4 +1,4 @@
-/** Pactly — Terms of Service & Dispute Protocol Update */
+/** Collabio — Terms of Service & Dispute Protocol Update */
 export default function LegalPage() {
   return (
     <>
@@ -32,7 +32,7 @@ export default function LegalPage() {
             <div className="flex items-center gap-space-xl">
               <a className="flex items-center gap-2 group" data-go="/deals" href="/deals">
                 <span className="font-headline-md text-headline-md tracking-tight font-bold text-on-surface">
-                  Pactly
+                  Collabio
                 </span>
                 <span className="w-2 h-2 rounded-full bg-primary-container"></span>
               </a>
@@ -233,7 +233,7 @@ export default function LegalPage() {
                    Updated Master Escrow Terms &amp; Dispute Protocol 
                 </h1>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-1 max-w-3xl">
-                   Pactly has updated its English Commercial Law Standard Schedule and Independent Solicitor Arbitration Protocol. Review what’s changing below before continuing to your escrow workspace. 
+                   Collabio has updated its English Commercial Law Standard Schedule and Independent Solicitor Arbitration Protocol. Review what’s changing below before continuing to your escrow workspace.
                 </p>
               </div>
               <div className="px-space-md lg:px-space-lg pb-space-md">
@@ -335,10 +335,10 @@ export default function LegalPage() {
                          1. Scope of Impartial Custodial Services &amp; Escrow Segregation 
                       </h3>
                       <p className="text-on-surface-variant leading-relaxed">
-                         1.1 Pactly Technologies Ltd ("the Custodian") provides independent escrow verification software for commercial agreements. Funds deposited by Brands or Agency counterparties are deposited into segregated, insolvency-remote client balances administered via FCA-regulated Electronic Money Institution partner rails (Stripe Payments UK, Ltd, FRN 900461) in strict compliance with the UK Electronic Money Regulations 2011 and Payment Services Regulations 2017. 
+                         1.1 Collabio Technologies Ltd ("the Custodian") provides independent escrow verification software for commercial agreements. Funds deposited by Brands or Agency counterparties are deposited into segregated, insolvency-remote client balances administered via FCA-regulated Electronic Money Institution partner rails (Stripe Payments UK, Ltd, FRN 900461) in strict compliance with the UK Electronic Money Regulations 2011 and Payment Services Regulations 2017.
                       </p>
                       <p className="text-on-surface-variant leading-relaxed">
-                         1.2 At no point do client escrow funds form part of Pactly’s general corporate assets. Neither party’s liquidators, administrators, nor general judgment creditors shall hold right, title, or claim to ring-fenced funds prior to verified milestone execution or arbitrator award. 
+                         1.2 At no point do client escrow funds form part of Collabio’s general corporate assets. Neither party’s liquidators, administrators, nor general judgment creditors shall hold right, title, or claim to ring-fenced funds prior to verified milestone execution or arbitrator award.
                       </p>
                     </section>
                     <section id="doc-section-2" className="space-y-2 pt-space-sm">
@@ -361,7 +361,7 @@ export default function LegalPage() {
                          Upon delivery confirmation of designated digital campaign deliverables (including raw asset uploads or authenticated social permalinks), the commissioning Brand counterparty is granted a definitive inspection window of forty-eight (48) consecutive hours ("Inspection Period"). 
                       </p>
                       <p className="text-on-surface-variant leading-relaxed">
-                         2.2 If the Brand counterparty fails to either: (a) formally approve the milestone, or (b) lodge a specific Non-Conforming Deliverable Notice via the Pactly interface within said 48 hours, the Custodial System will automatically trigger irrevocable disbursement of the secured escrow funds to the Creator counterparty's payout balance. 
+                         2.2 If the Brand counterparty fails to either: (a) formally approve the milestone, or (b) lodge a specific Non-Conforming Deliverable Notice via the Collabio interface within said 48 hours, the Custodial System will automatically trigger irrevocable disbursement of the secured escrow funds to the Creator counterparty's payout balance.
                       </p>
                     </section>
                     <section id="doc-section-3" className="space-y-2 pt-space-sm">
@@ -396,7 +396,7 @@ export default function LegalPage() {
                          4. Dispute Escalation, Evidence Packs &amp; Solicitor Arbitration 
                       </h3>
                       <p className="text-on-surface-variant leading-relaxed">
-                         4.1 In the event of an irreconcilable milestone dispute, either party may invoke the Pactly Independent Solicitor Referee Protocol. Both parties agree to submit digital evidence packs within seventy-two (72) hours. 
+                         4.1 In the event of an irreconcilable milestone dispute, either party may invoke the Collabio Independent Solicitor Referee Protocol. Both parties agree to submit digital evidence packs within seventy-two (72) hours.
                       </p>
                       <p className="text-on-surface-variant leading-relaxed">
                          4.2 The dispute shall be submitted to a panel solicitor admitted to practice in England and Wales. The arbitration fee is strictly capped at seventy-five pounds sterling (Rs 27,750) per party. The arbitrator's written decision shall be binding, non-appealable, and enforce immediate partial or complete disbursement of the disputed escrow deposit. 
@@ -428,7 +428,7 @@ export default function LegalPage() {
                            End of Master Terms Schedule v4.2 reached 
                         </span>
                         <span className="font-mono">
-                          Pactly-UK-2026-v4.2-STABLE
+                          Collabio-UK-2026-v4.2-STABLE
                         </span>
                       </div>
                     </section>
@@ -440,7 +440,7 @@ export default function LegalPage() {
                   <input id="chk-terms" type="checkbox" className="mt-1 h-4 w-4 rounded accent-primary text-primary focus:ring-primary-container" />
                   <div className="flex flex-col">
                     <span className="font-label-md text-label-md text-on-surface font-semibold">
-                       I have reviewed and agree to the Pactly Master Terms of Service (v4.2) and Schedule 4 Commercial Protection Clauses. 
+                       I have reviewed and agree to the Collabio Master Terms of Service (v4.2) and Schedule 4 Commercial Protection Clauses.
                     </span>
                     <span className="font-body-sm text-body-sm text-on-surface-variant">
                        Includes binding acceptance of the accelerated 48h automated post verification protocol. 
@@ -515,7 +515,7 @@ export default function LegalPage() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
             <div className="flex items-center gap-2">
               <span className="font-headline-sm text-headline-sm tracking-tight font-bold text-on-surface">
-                Pactly
+                Collabio
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
               <span className="font-body-sm text-body-sm text-on-surface-variant ml-2">
@@ -539,10 +539,10 @@ export default function LegalPage() {
           </div>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm pt-space-md font-body-sm text-body-sm text-on-surface-variant">
             <p className="max-w-3xl">
-              Pactly acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
+              Collabio acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
             </p>
             <p className="font-label-sm text-label-sm shrink-0">
-              © 2025 Pactly Technologies Ltd. All rights reserved.
+              © 2025 Collabio Technologies Ltd. All rights reserved.
             </p>
           </div>
         </div>

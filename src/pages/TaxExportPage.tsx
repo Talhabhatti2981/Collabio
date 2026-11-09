@@ -1,4 +1,4 @@
-/** Pactly — Export Tax & Accounting Packet Modal (HMRC Compliant) */
+/** Collabio — Export Tax & Accounting Packet Modal (HMRC Compliant) */
 export default function TaxExportPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function TaxExportPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface font-semibold">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container-high text-primary font-label-md rounded-lg" className="hidden lg:flex items-center gap-space-xs">
@@ -338,7 +338,7 @@ export default function TaxExportPage() {
                             </div>
                             <div className="flex justify-between items-center text-on-surface-variant">
                               <span>
-                                Pactly Safeguarding & Custody Fee Settled
+                                Collabio Safeguarding & Custody Fee Settled
                               </span>
                               <span className="font-mono text-error font-medium">
                                 -Rs 46,620
@@ -457,7 +457,7 @@ export default function TaxExportPage() {
                               2201
                             </span>
                             <span className="ml-1.5 text-on-surface">
-                              Input VAT Claimable (Pactly Fee)
+                              Input VAT Claimable (Collabio Fee)
                             </span>
                           </div>
                           <span className="font-mono font-medium text-secondary">
@@ -476,7 +476,7 @@ export default function TaxExportPage() {
                           <em>
                             Payment Services Regulations 2017 (PSR 2017)
                           </em>
-                          . Recipient KYC/eIDAS identification performed by Pactly Technologies Ltd (FCA FRN 841920). 
+                          . Recipient KYC/eIDAS identification performed by Collabio Technologies Ltd (FCA FRN 841920).
                         </p>
                       </div>
                       <div className="mt-2 pt-2 border-t border-surface-container flex items-center justify-between text-on-surface-variant font-label-sm">
@@ -598,7 +598,7 @@ export default function TaxExportPage() {
                       verified_user
                     </span>
                     <div className="font-label-sm text-[11.5px] leading-tight">
-                       Cryptographically signed by Pactly Escrow Technologies Ltd.
+                       Cryptographically signed by Collabio Escrow Technologies Ltd.
                       <br />
                       <span className="font-mono text-outline">
                         SHA-256: 9b2d8e41f029ce81aa4921f002b801a2
@@ -654,7 +654,7 @@ export default function TaxExportPage() {
             </div>
           </div>
           <div className="text-center md:text-left font-body-sm text-body-sm text-on-surface-variant">
-            © 2025 Pactly Escrow Technologies Ltd. Registered in England & Wales (No. 12984021). All escrowed funds held in designated trust accounts.
+            © 2025 Collabio Escrow Technologies Ltd. Registered in England & Wales (No. 12984021). All escrowed funds held in designated trust accounts.
           </div>
         </div>
       </footer>

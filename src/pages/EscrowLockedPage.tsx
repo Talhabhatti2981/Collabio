@@ -1,4 +1,4 @@
-/** Pactly — Escrow Locked & Dispatched Confirmation Modal */
+/** Collabio — Escrow Locked & Dispatched Confirmation Modal */
 export default function EscrowLockedPage() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function EscrowLockedPage() {
           <div className="flex items-center gap-space-xl">
             <a className="flex items-center gap-space-xs text-headline-sm font-headline-sm text-on-surface" data-go="/deals" href="/deals">
               <span className="tracking-tight font-semibold">
-                Pactly
+                Collabio
               </span>
               <span className="w-2 h-2 rounded-full bg-primary inline-block"></span>
             </a>
@@ -350,7 +350,7 @@ export default function EscrowLockedPage() {
                           <span className="material-symbols-outlined text-[15px] text-secondary">
                             check_circle
                           </span>
-                           Pactly Custody Fee (6% • Rs 39,960): 
+                           Collabio Custody Fee (6% • Rs 39,960):
                           <strong className="text-on-surface font-semibold">
                             Brand Absorbed
                           </strong>
@@ -492,7 +492,7 @@ export default function EscrowLockedPage() {
                           One-Time Escrow Acceptance Passkey URL
                         </span>
                         <span className="font-label-md text-label-md font-mono text-on-surface truncate">
-                           https://pactly.co/pact/uk-5028/charlotte-review?pass=e9a8f2701d891c49b062e49c71629851 
+                           https://collabio.co/pact/uk-5028/charlotte-review?pass=e9a8f2701d891c49b062e49c71629851
                         </span>
                       </div>
                     </div>
@@ -544,7 +544,7 @@ export default function EscrowLockedPage() {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md mb-space-md">
             <div className="flex items-center gap-space-xs font-headline-sm text-headline-sm text-on-surface">
               <span className="tracking-tight font-semibold">
-                Pactly
+                Collabio
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span>
               <span className="text-body-sm font-body-sm text-on-surface-variant ml-2">
@@ -568,10 +568,10 @@ export default function EscrowLockedPage() {
           </div>
           <div className="pt-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant">
             <p className="max-w-3xl leading-relaxed text-body-sm font-body-sm text-on-surface-variant">
-              Pactly Financial Services Ltd operates with dedicated client custody accounts held under regulatory supervision pursuant to the Electronic Money Regulations 2011. Escrow trust balances are ring-fenced under UK statutory trust framework. Registered in England & Wales (No. 12894102). Authorised payment institution partner network.
+              Collabio Financial Services Ltd operates with dedicated client custody accounts held under regulatory supervision pursuant to the Electronic Money Regulations 2011. Escrow trust balances are ring-fenced under UK statutory trust framework. Registered in England & Wales (No. 12894102). Authorised payment institution partner network.
             </p>
             <p className="text-label-sm font-label-sm shrink-0">
-              © 2025 Pactly Ltd. All rights reserved.
+              © 2025 Collabio Ltd. All rights reserved.
             </p>
           </div>
         </div>

@@ -1,23 +1,31 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Inter', sans-serif;
-  --font-headline-xl: 'Inter', sans-serif;
-  --font-headline-lg: 'Inter', sans-serif;
-  --font-headline-md: 'Inter', sans-serif;
-  --font-headline-sm: 'Inter', sans-serif;
-  --font-body-lg: 'Inter', sans-serif;
-  --font-body-md: 'Inter', sans-serif;
-  --font-body-sm: 'Inter', sans-serif;
-  --font-label-lg: 'Inter', sans-serif;
-  --font-label-md: 'Inter', sans-serif;
-  --font-label-sm: 'Inter', sans-serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --color-ink: #141413;
+  --color-paper: #FCFCFB;
+  --color-panel: #FBFBF9;
+  --color-edge: #F0F0EF;
+  --color-line: #e2e2df;
+  --color-ink-muted: #4a4a48;
+  --color-attention: #8A6D1F;
+  --color-critical: #8B3A2F;
+  --font-headline-xl: 'Outfit', system-ui, sans-serif;
+  --font-headline-lg: 'Outfit', system-ui, sans-serif;
+  --font-headline-md: 'Outfit', system-ui, sans-serif;
+  --font-headline-sm: 'Outfit', system-ui, sans-serif;
+  --font-body-lg: 'Outfit', system-ui, sans-serif;
+  --font-body-md: 'Outfit', system-ui, sans-serif;
+  --font-body-sm: 'Outfit', system-ui, sans-serif;
+  --font-label-lg: 'Outfit', system-ui, sans-serif;
+  --font-label-md: 'Outfit', system-ui, sans-serif;
+  --font-label-sm: 'Outfit', system-ui, sans-serif;
 
-  --color-primary: #1b32c8;
-  --color-primary-container: #3b4fe0;
+  --color-primary: #141413;
+  --color-primary-container: #141413;
   --color-primary-fixed: #dfe0ff;
   --color-primary-fixed-dim: #bcc2ff;
-  --color-on-primary: #ffffff;
+  --color-on-primary: #FCFCFB;
   --color-on-primary-container: #d8daff;
   --color-on-primary-fixed: #000c62;
   --color-on-primary-fixed-variant: #172ec6;
@@ -41,21 +49,21 @@
   --color-error-container: #ffdad6;
   --color-on-error: #ffffff;
   --color-on-error-container: #93000a;
-  --color-surface: #f9f9ff;
-  --color-surface-bright: #f9f9ff;
+  --color-surface: #FCFCFB;
+  --color-surface-bright: #FCFCFB;
   --color-surface-dim: #d3daef;
-  --color-surface-container: #e9edff;
-  --color-surface-container-low: #f1f3ff;
+  --color-surface-container: #F0F0EF;
+  --color-surface-container-low: #FBFBF9;
   --color-surface-container-high: #e1e8fd;
   --color-surface-container-highest: #dce2f7;
-  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-lowest: #FCFCFB;
   --color-surface-variant: #dce2f7;
-  --color-on-surface: #141b2b;
-  --color-on-surface-variant: #454655;
-  --color-outline: #757686;
-  --color-outline-variant: #c5c5d7;
-  --color-background: #f9f9ff;
-  --color-on-background: #141b2b;
+  --color-on-surface: #141413;
+  --color-on-surface-variant: #4a4a48;
+  --color-outline: #7d7d7a;
+  --color-outline-variant: #adadaa;
+  --color-background: #FCFCFB;
+  --color-on-background: #141413;
   --color-inverse-surface: #293040;
   --color-inverse-on-surface: #edf0ff;
   --color-inverse-primary: #bcc2ff;
@@ -135,9 +143,10 @@ body,
 }
 
 body {
-  background: #f9f9ff;
-  color: #141b2b;
-  font-family: Inter, sans-serif;
+  background: #FCFCFB;
+  color: #141413;
+  font-family: Outfit, system-ui, sans-serif;
+  line-height: 1.55;
 }
 
 .material-symbols-outlined {
@@ -146,6 +155,4 @@ body {
   vertical-align: middle;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+

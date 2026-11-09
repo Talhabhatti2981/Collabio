@@ -1,4 +1,4 @@
-/** Pactly — Propose Revision Modal (Creator Redline & Counter-Offer) */
+/** Collabio — Propose Revision Modal (Creator Redline & Counter-Offer) */
 export default function ProposeRevisionPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function ProposeRevisionPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm text-on-surface tracking-tight">
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container-high text-primary font-medium rounded-lg" className="hidden md:flex items-center gap-space-xs">
@@ -88,7 +88,7 @@ export default function ProposeRevisionPage() {
                   </span>
                 </div>
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                   Bilateral influencer endorsement agreement between Lumina Studio Ltd (registered in England & Wales #11849201) and Alex Rivera. Total payout guaranteed via Pactly Escrow Services Ltd. 
+                   Bilateral influencer endorsement agreement between Lumina Studio Ltd (registered in England & Wales #11849201) and Alex Rivera. Total payout guaranteed via Collabio Escrow Services Ltd.
                 </p>
                 <div className="grid grid-cols-3 gap-space-md pt-space-sm">
                   <div className="bg-surface-container-low p-space-md rounded-lg">
@@ -430,7 +430,7 @@ export default function ProposeRevisionPage() {
                         Escrow Ledger Adjustment Calculation
                       </span>
                       <span className="font-body-sm text-body-sm text-on-surface-variant">
-                        Pactly Escrow Custody Account (FCA Safeguarded Client Funds)
+                        Collabio Escrow Custody Account (FCA Safeguarded Client Funds)
                       </span>
                     </div>
                     <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm font-semibold">
@@ -590,7 +590,7 @@ export default function ProposeRevisionPage() {
                     </span>
                   </div>
                   <span>
-                    Pactly Neutral Escrow Custody • Barclays Ring-Fenced Account
+                    Collabio Neutral Escrow Custody • Barclays Ring-Fenced Account
                   </span>
                 </div>
               </div>
@@ -607,7 +607,7 @@ export default function ProposeRevisionPage() {
               </span>
             </div>
             <span className="font-label-md text-label-md text-on-surface font-semibold">
-              Pactly Escrow UK Ltd
+              Collabio Escrow UK Ltd
             </span>
             <span className="font-body-sm text-body-sm text-on-surface-variant">
               • Impartial Partnership Referee
@@ -628,7 +628,7 @@ export default function ProposeRevisionPage() {
             </a>
           </div>
           <p className="font-body-sm text-body-sm text-outline">
-            © 2025 Pactly. All client funds held in ring-fenced Tier 1 UK bank accounts.
+            © 2025 Collabio. All client funds held in ring-fenced Tier 1 UK bank accounts.
           </p>
         </div>
       </footer>

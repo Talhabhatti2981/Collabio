@@ -1,6 +1,6 @@
 import Logo from '../components/Logo'
 
-/** Pactly — Verify Your Email */
+/** Collabio — Verify Your Email */
 export default function VerifyEmailPage() {
   return (
     <>
@@ -38,7 +38,7 @@ export default function VerifyEmailPage() {
             <div className="flex items-center gap-space-sm">
               <Logo className="h-8 w-auto object-contain" />
               <span className="font-headline-sm text-headline-sm text-on-surface tracking-tight">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container-high text-primary font-semibold rounded-lg" className="hidden lg:flex items-center gap-space-sm">
@@ -273,8 +273,8 @@ export default function VerifyEmailPage() {
                 <div className="mt-8 pt-6 w-full text-center">
                   <p className="font-body-sm text-body-sm text-on-surface-variant">
                      Didn't receive it? Check your spam folder or contact 
-                    <a className="text-primary hover:underline font-medium" href="mailto:support@pactly.co.uk">
-                      support@pactly.co.uk
+                    <a className="text-primary hover:underline font-medium" href="mailto:support@collabio.co.uk">
+                      support@collabio.co.uk
                     </a>
                     . 
                   </p>
@@ -313,7 +313,7 @@ export default function VerifyEmailPage() {
                   FCA Custodial Escrow Architecture
                 </h3>
                 <p className="font-body-sm text-body-sm text-on-surface-variant">
-                   Pactly partners with regulated British financial institutions to ring-fence contract funds. Verification preserves legally enforceable dispute adjudication under English Law. 
+                   Collabio partners with regulated British financial institutions to ring-fence contract funds. Verification preserves legally enforceable dispute adjudication under English Law.
                 </p>
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function VerifyEmailPage() {
           <div className="flex items-center gap-space-sm">
             <Logo className="h-6 w-auto object-contain grayscale opacity-70" />
             <span className="font-label-md text-label-md">
-              © 2025 Pactly Escrow Ltd. Registered in England &amp; Wales. Standard UK Commercial Contracts.
+              © 2025 Collabio Escrow Ltd. Registered in England &amp; Wales. Standard UK Commercial Contracts.
             </span>
           </div>
           <div className="flex items-center gap-space-lg font-label-md text-label-md">

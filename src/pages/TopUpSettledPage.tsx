@@ -1,4 +1,4 @@
-/** Pactly — Escrow Top-Up Settled & Revised Pact Dispatched Modal */
+/** Collabio — Escrow Top-Up Settled & Revised Pact Dispatched Modal */
 export default function TopUpSettledPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function TopUpSettledPage() {
                 P
               </span>
               <span className="font-headline-md text-headline-md text-on-surface">
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="text-primary font-semibold border-b-2 border-primary" className="hidden md:flex items-center gap-space-lg h-16">
@@ -301,7 +301,7 @@ export default function TopUpSettledPage() {
                             verified
                           </span>
                           <span className="font-label-md text-label-md font-medium">
-                            Pactly 6% Custody Fee: 100% Brand Absorbed
+                            Collabio 6% Custody Fee: 100% Brand Absorbed
                           </span>
                           <span className="text-secondary font-label-sm text-label-sm font-semibold">
                             (Rs 0fee for Creator)
@@ -565,7 +565,7 @@ export default function TopUpSettledPage() {
                 FCA Regulated Safeguarding &amp; Escrow Protocols
               </p>
               <p className="text-on-surface-variant">
-                Pactly Escrow Ltd acts as an independent referee. All transaction funds are held in segregated client bank accounts protected under the UK Payment Services Regulations (PSR 2017) and FCA safeguarding requirements. Governed exclusively under English Commercial Jurisdiction.
+                Collabio Escrow Ltd acts as an independent referee. All transaction funds are held in segregated client bank accounts protected under the UK Payment Services Regulations (PSR 2017) and FCA safeguarding requirements. Governed exclusively under English Commercial Jurisdiction.
               </p>
               <p className="text-on-surface-variant">
                 Company Registration No. 14289410 | Transparent fixed escrow service fee applied on milestone completion.
@@ -587,7 +587,7 @@ export default function TopUpSettledPage() {
                 </a>
               </div>
               <p className="font-label-sm text-label-sm text-on-surface-variant">
-                © 2024 Pactly Escrow Ltd. All rights reserved.
+                © 2024 Collabio Escrow Ltd. All rights reserved.
               </p>
             </div>
           </div>

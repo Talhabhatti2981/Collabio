@@ -1,4 +1,4 @@
-/** Pactly — Milestone 2: TikTok Spark Ads Whitelisting Activation & Token Submission */
+/** Collabio — Milestone 2: TikTok Spark Ads Whitelisting Activation & Token Submission */
 export default function SparkAdsPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function SparkAdsPage() {
                 P
               </span>
               <span className="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-primary-container text-on-primary font-medium rounded-lg" className="hidden md:flex items-center gap-1">
@@ -525,7 +525,7 @@ export default function SparkAdsPage() {
                           Autonomous TikTok API Ad Spend / Delivery Trigger
                         </span>
                         <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                           Pactly listens directly to the TikTok Marketing API webhook. The ring-fenced 
+                           Collabio listens directly to the TikTok Marketing API webhook. The ring-fenced
                           <strong className="text-on-surface font-semibold">
                             Rs 259,000
                           </strong>
@@ -739,7 +739,7 @@ export default function SparkAdsPage() {
                         <strong className="text-on-surface">
                           Governing Law:
                         </strong>
-                         English Commercial Court Jurisdiction under Pactly Model 2.4.
+                         English Commercial Court Jurisdiction under Collabio Model 2.4.
                       </span>
                     </li>
                   </ul>
@@ -843,7 +843,7 @@ export default function SparkAdsPage() {
           </div>
           <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-on-surface-variant font-label-sm text-label-sm">
             <span>
-              © 2025 Pactly Ltd. All rights reserved. Registered in England &amp; Wales.
+              © 2025 Collabio Ltd. All rights reserved. Registered in England &amp; Wales.
             </span>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1.5">

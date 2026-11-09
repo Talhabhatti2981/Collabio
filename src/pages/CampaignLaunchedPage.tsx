@@ -1,4 +1,4 @@
-/** Pactly — Milestone 2: Campaign Launched & Escrow Armed Confirmation Modal */
+/** Collabio — Milestone 2: Campaign Launched & Escrow Armed Confirmation Modal */
 export default function CampaignLaunchedPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function CampaignLaunchedPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container text-primary font-label-md text-label-md rounded-lg" className="hidden lg:flex items-center gap-space-xs">
@@ -169,7 +169,7 @@ export default function CampaignLaunchedPage() {
               </div>
             </div>
           </div>
-          <div id="pactly-armed-modal-backdrop" className="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-md flex items-center justify-center p-space-sm sm:p-space-md overflow-y-auto">
+          <div id="collabio-armed-modal-backdrop" className="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-md flex items-center justify-center p-space-sm sm:p-space-md overflow-y-auto">
             <div className="relative w-full max-w-[880px] bg-surface-container-lowest rounded-xl shadow-xl my-auto overflow-hidden animate-in fade-in zoom-in-95 duration-200">
               <div className="bg-surface-container-low px-space-md sm:px-space-lg py-space-xs flex flex-wrap items-center justify-between gap-space-xs">
                 <div className="flex items-center gap-space-xs">

@@ -1,4 +1,4 @@
-/** Pactly — 30-Day Performance Audit & Final Escrow Settlement */
+/** Collabio — 30-Day Performance Audit & Final Escrow Settlement */
 export default function PerformanceAuditPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function PerformanceAuditPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container-high text-on-surface font-semibold rounded-lg" className="hidden md:flex items-center gap-space-xs">
@@ -534,7 +534,7 @@ export default function PerformanceAuditPage() {
                             </div>
                           </div>
                           <p className="font-body-sm text-body-sm text-on-surface italic">
-                             “Brilliant communication, instant milestone payouts via Pactly, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!” 
+                             “Brilliant communication, instant milestone payouts via Collabio, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!”
                           </p>
                         </div>
                         <div className="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm pt-2">
@@ -597,7 +597,7 @@ export default function PerformanceAuditPage() {
                              Statutory Discharge under English Commercial Law 
                           </h3>
                           <p className="font-body-sm text-body-sm text-on-surface-variant">
-                             Executed under Pactly Standard Model 2.4 • Both parties have discharged 100% of agreed covenants. 
+                             Executed under Collabio Standard Model 2.4 • Both parties have discharged 100% of agreed covenants.
                           </p>
                         </div>
                       </div>
@@ -889,7 +889,7 @@ export default function PerformanceAuditPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm text-on-surface font-semibold">
-                Pactly Legal &amp; Escrow Infrastructure
+                Collabio Legal &amp; Escrow Infrastructure
               </span>
             </div>
             <div className="flex flex-wrap items-center gap-space-md font-label-md text-label-md">
@@ -906,7 +906,7 @@ export default function PerformanceAuditPage() {
           </div>
           <div className="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
             <p>
-              Pactly operates in strict accordance with the UK Electronic Money Regulations 2011 and Payment Services Regulations 2017. Client custody funds are securely segregated and safeguarded via designated FCA-regulated credit institutions under Barclays Client Trust Custody frameworks.
+              Collabio operates in strict accordance with the UK Electronic Money Regulations 2011 and Payment Services Regulations 2017. Client custody funds are securely segregated and safeguarded via designated FCA-regulated credit institutions under Barclays Client Trust Custody frameworks.
             </p>
             <p>
               All partnership covenants are executed under English Commercial Law Model 2.4. Smart contract milestones release custody funds upon verified delivery or mutual arbitration resolution.
@@ -914,7 +914,7 @@ export default function PerformanceAuditPage() {
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs pt-space-md text-on-surface-variant font-label-sm text-label-sm">
             <p>
-              © 2025 Pactly Technologies Ltd (UK). All rights reserved.
+              © 2025 Collabio Technologies Ltd (UK). All rights reserved.
             </p>
             <div className="flex items-center gap-space-sm">
               <span>

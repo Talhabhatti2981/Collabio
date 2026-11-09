@@ -1,6 +1,6 @@
 import Logo from '../components/Logo'
 
-/** Pactly — Invite a Creator (Known vs Unknown states) */
+/** Collabio — Invite a Creator (Known vs Unknown states) */
 export default function InviteCreatorPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function InviteCreatorPage() {
             <a className="flex items-center gap-space-sm" data-go="/deals" href="/deals">
               <Logo className="h-8 w-auto object-contain" />
               <span className="font-headline-sm text-headline-sm text-on-surface tracking-tight">
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container-high text-primary font-semibold" className="hidden md:flex items-center gap-space-xs">
@@ -139,7 +139,7 @@ export default function InviteCreatorPage() {
                   Invite Creator to Deal #UK-5012
                 </h1>
                 <p className="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-2xl">
-                   Assign a legal counterparty to this agreement. Pactly checks whether the creator holds an active verified profile or issues a secure escrow onboarding pass. 
+                   Assign a legal counterparty to this agreement. Collabio checks whether the creator holds an active verified profile or issues a secure escrow onboarding pass.
                 </p>
               </div>
               <div id="state-toggle-wrapper" className="bg-surface-container-high p-1 rounded-xl flex items-center gap-1 shadow-inner self-start lg:self-auto">
@@ -390,7 +390,7 @@ export default function InviteCreatorPage() {
                           Instant In-App Voucher Transmission
                         </span>
                         <p className="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
-                           Because Charlotte is an enrolled counterparty, she will receive a signed push dispatch on her Pactly app instantly. No account onboarding wait-time is required before bilateral milestone countersigning. 
+                           Because Charlotte is an enrolled counterparty, she will receive a signed push dispatch on her Collabio app instantly. No account onboarding wait-time is required before bilateral milestone countersigning.
                         </p>
                       </div>
                     </div>
@@ -429,7 +429,7 @@ export default function InviteCreatorPage() {
                             Standard UK Creator Model Agreement (Schedule 4)
                           </h4>
                           <p className="font-body-sm text-body-sm text-on-surface-variant">
-                            Pre-verified by Pactly Legal Referee Panel • Jurisdiction: Senior Courts of England and Wales
+                            Pre-verified by Collabio Legal Referee Panel • Jurisdiction: Senior Courts of England and Wales
                           </p>
                         </div>
                       </div>
@@ -508,7 +508,7 @@ export default function InviteCreatorPage() {
                           verified
                         </span>
                         <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                          Pactly Escrow Custody Assurance: What happens next?
+                          Collabio Escrow Custody Assurance: What happens next?
                         </h3>
                       </div>
                       <div className="space-y-4 text-on-surface">
@@ -587,7 +587,7 @@ export default function InviteCreatorPage() {
                         Architectural Comparison: Identity Rails
                       </h2>
                       <p className="font-body-sm text-body-sm text-on-surface-variant">
-                        Review how Pactly handles verified counterparty velocity versus off-platform creator onboarding.
+                        Review how Collabio handles verified counterparty velocity versus off-platform creator onboarding.
                       </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -605,7 +605,7 @@ export default function InviteCreatorPage() {
                             Verified Member Match
                           </h3>
                           <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">
-                            Creator exists in Pactly UK Trust Registry with pre-verified KYC and verified bank mandates.
+                            Creator exists in Collabio UK Trust Registry with pre-verified KYC and verified bank mandates.
                           </p>
                           <div className="mt-4 space-y-2">
                             <div className="flex items-center gap-2 font-label-sm text-label-sm text-on-surface">
@@ -733,7 +733,7 @@ export default function InviteCreatorPage() {
                       </div>
                       <div className="flex justify-between items-center text-body-sm">
                         <span className="text-on-surface-variant flex items-center gap-1">
-                           Pactly Custody Fee (6%) 
+                           Collabio Custody Fee (6%)
                           <span title="Fixed impartial custody &amp; solicitor arbitration fee" className="material-symbols-outlined text-[14px] text-outline">
                             info
                           </span>
@@ -813,7 +813,7 @@ export default function InviteCreatorPage() {
           <div className="flex items-center gap-space-sm">
             <Logo className="h-6 w-auto object-contain grayscale opacity-70" />
             <span className="font-label-md text-label-md">
-              © 2025 Pactly Escrow Ltd. Registered in England &amp; Wales (No. 14298102). Regulated trust custody rails via FCA authorised institutions.
+              © 2025 Collabio Escrow Ltd. Registered in England &amp; Wales (No. 14298102). Regulated trust custody rails via FCA authorised institutions.
             </span>
           </div>
           <div className="flex items-center gap-space-lg font-label-md text-label-md">

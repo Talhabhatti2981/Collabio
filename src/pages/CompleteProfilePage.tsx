@@ -1,4 +1,4 @@
-/** Pactly — Complete Your Profile (Brand & Creator) */
+/** Collabio — Complete Your Profile (Brand & Creator) */
 export default function CompleteProfilePage() {
   return (
     <>
@@ -32,7 +32,7 @@ export default function CompleteProfilePage() {
             <div className="flex items-center gap-space-xl">
               <a className="flex items-center gap-2 group" data-go="/deals" href="/deals">
                 <span className="font-headline-md text-headline-md tracking-tight font-bold text-on-surface">
-                  Pactly
+                  Collabio
                 </span>
                 <span className="w-2 h-2 rounded-full bg-primary-container"></span>
               </a>
@@ -269,7 +269,7 @@ export default function CompleteProfilePage() {
                             </div>
                           </div>
                           <p className="font-body-sm text-body-sm text-on-surface-variant">
-                            Pactly automatically queries Companies House API to lock company status.
+                            Collabio automatically queries Companies House API to lock company status.
                           </p>
                         </div>
                       </div>
@@ -421,7 +421,7 @@ export default function CompleteProfilePage() {
                             Public creator handle
                           </label>
                           <span className="font-body-sm text-body-sm text-on-surface-variant">
-                            Your primary trading identifier on the Pactly network.
+                            Your primary trading identifier on the Collabio network.
                           </span>
                         </div>
                         <div className="w-full md:w-[65%] flex flex-col gap-1">
@@ -719,7 +719,7 @@ export default function CompleteProfilePage() {
                   </span>
                 </div>
                 <span className="font-label-sm text-label-sm text-outline">
-                  Pactly Legal Gateway v2.4
+                  Collabio Legal Gateway v2.4
                 </span>
               </div>
             </div>
@@ -731,7 +731,7 @@ export default function CompleteProfilePage() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
             <div className="flex items-center gap-2">
               <span className="font-headline-sm text-headline-sm tracking-tight font-bold text-on-surface">
-                Pactly
+                Collabio
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
               <span className="font-body-sm text-body-sm text-on-surface-variant ml-2">
@@ -755,10 +755,10 @@ export default function CompleteProfilePage() {
           </div>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm pt-space-md font-body-sm text-body-sm text-on-surface-variant">
             <p className="max-w-3xl">
-              Pactly acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
+              Collabio acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
             </p>
             <p className="font-label-sm text-label-sm shrink-0">
-              © 2025 Pactly Technologies Ltd. All rights reserved.
+              © 2025 Collabio Technologies Ltd. All rights reserved.
             </p>
           </div>
         </div>

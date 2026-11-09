@@ -1,4 +1,4 @@
-/** Pactly — Creator Revised Deliverable Resubmission (with Revision Diff) */
+/** Collabio — Creator Revised Deliverable Resubmission (with Revision Diff) */
 export default function ResubmitDeliverablePage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function ResubmitDeliverablePage() {
                 P
               </span>
               <span className="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-primary-container text-on-primary font-medium rounded-lg" className="hidden md:flex items-center gap-1">
@@ -528,7 +528,7 @@ export default function ResubmitDeliverablePage() {
                       Updated Deliverable Submission Details
                     </h2>
                     <p className="font-body-sm text-on-surface-variant">
-                      Provide link and verified metadata for autonomous Pactly escrow release verification
+                      Provide link and verified metadata for autonomous Collabio escrow release verification
                     </p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
@@ -833,7 +833,7 @@ export default function ResubmitDeliverablePage() {
                     </div>
                   </div>
                   <p className="font-body-sm text-xs text-on-surface-variant leading-relaxed">
-                     Clause 3.1: If Round 2 is exhausted without agreement, Pactly Fast-Track Arbitration (Rs 27,750cap) is unlocked with an impartial UK legal referee. 
+                     Clause 3.1: If Round 2 is exhausted without agreement, Collabio Fast-Track Arbitration (Rs 27,750cap) is unlocked with an impartial UK legal referee.
                   </p>
                 </div>
                 <div className="p-6 rounded-2xl bg-surface-container-lowest border border-surface-variant/40 shadow-sm space-y-3">
@@ -846,7 +846,7 @@ export default function ResubmitDeliverablePage() {
                     </h4>
                   </div>
                   <p className="font-body-sm text-xs text-on-surface-variant leading-relaxed">
-                     Brand response window is strictly 48 hours upon your resubmission. If Lumina Studio does not inspect or request Round 2 within 48 hours, Rs 518,000is automatically released to your bank account under Pactly Commercial Rules. 
+                     Brand response window is strictly 48 hours upon your resubmission. If Lumina Studio does not inspect or request Round 2 within 48 hours, Rs 518,000is automatically released to your bank account under Collabio Commercial Rules.
                   </p>
                   <div className="pt-2">
                     <a className="text-primary hover:underline font-label-sm font-semibold inline-flex items-center gap-1" href="#" onClick={(event) => event.preventDefault()}>
@@ -908,7 +908,7 @@ export default function ResubmitDeliverablePage() {
           </div>
           <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-on-surface-variant font-label-sm text-label-sm">
             <span>
-              © 2025 Pactly Ltd. All rights reserved. Registered in England &amp; Wales.
+              © 2025 Collabio Ltd. All rights reserved. Registered in England &amp; Wales.
             </span>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1.5">

@@ -118,7 +118,6 @@ const RENAMES = {
   readonly: 'readOnly',
   colspan: 'colSpan',
   rowspan: 'rowSpan',
-  rowspan: 'rowSpan',
   srcset: 'srcSet',
   crossorigin: 'crossOrigin',
   autofocus: 'autoFocus',
@@ -205,8 +204,8 @@ function flowFor(screenId, text) {
   if (!t || t.length > 420) return null
   if (t === "i'm a brand" || t === 'im a brand') return { flow: 'role-brand' }
   if (t.startsWith("i'm a creator") || t.startsWith('im a creator')) return { flow: 'role-creator' }
-  if (t.includes('create an account') || t.includes('get started') || t.includes('create your pactly')) return { go: '/signup' }
-  if (t.includes('create pactly account')) return { go: '/verify-email' }
+  if (t.includes('create an account') || t.includes('get started') || t.includes('create your collabio')) return { go: '/signup' }
+  if (t.includes('create collabio account')) return { go: '/verify-email' }
   if (t.includes('forgot password')) return { go: '/login' }
   if (screenId === LOGIN && (t.startsWith('log in ') || t.includes('google workspace') || t.includes('apple passkey'))) {
     return { flow: 'login-submit' }
@@ -273,7 +272,7 @@ function flowFor(screenId, text) {
     return { go: '/profile' }
   }
   if (t === 'deals' || t.endsWith(' deals') || (/^deals\b/.test(t) && t.length < 28)) return { go: '/deals' }
-  if (t === 'pactly' || t.endsWith(' pactly')) return { go: screenId === LOGIN ? '/login' : '/deals' }
+  if (t === 'collabio' || t.endsWith(' collabio')) return { go: screenId === LOGIN ? '/login' : '/deals' }
   return null
 }
 
@@ -411,7 +410,7 @@ function styleObject(value) {
 function isLogo(node) {
   const alt = decode(attr(node, 'alt')).toLowerCase()
   const src = attr(node, 'src')
-  return alt.includes('pactly logo') || src.includes('AEtjO1WhJfALA')
+  return alt.includes('collabio logo') || src.includes('AEtjO1WhJfALA')
 }
 
 function emit(nodes, indent, screenId, state) {
@@ -542,8 +541,8 @@ const imports = [
 const routes = routeLines.map((route) => `      <Route path="${route.route}" element={${route.element}} />`).join('\n')
 
 await writeFile(
-  'src/pactlyRoutes.tsx',
-  `import { Route } from 'react-router-dom'\n${imports.join('\n')}\n\nexport function PactlyRoutes() {\n  return (\n    <>\n${routes}\n    </>\n  )\n}\n`,
+  'src/collabioRoutes.tsx',
+  `import { Route } from 'react-router-dom'\n${imports.join('\n')}\n\nexport function CollabioRoutes() {\n  return (\n    <>\n${routes}\n    </>\n  )\n}\n`,
 )
 
 const counterPath = 'src/components/CounterOfferPage.tsx'

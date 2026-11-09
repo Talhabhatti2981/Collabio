@@ -1,6 +1,6 @@
 import Logo from '../components/Logo'
 
-/** Pactly — Escrow & Contracts for Paid Creator Posts */
+/** Collabio — Escrow & Contracts for Paid Creator Posts */
 export default function WelcomePage() {
   return (
     <>
@@ -38,7 +38,7 @@ export default function WelcomePage() {
             <div className="flex items-center gap-space-sm">
               <Logo className="h-8 w-auto object-contain" />
               <span className="font-headline-sm text-headline-sm text-on-surface tracking-tight">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container-high text-primary font-semibold rounded-lg" className="hidden lg:flex items-center gap-space-sm">
@@ -109,7 +109,7 @@ export default function WelcomePage() {
                   </span>
                 </h1>
                 <p className="font-body-lg text-body-lg text-on-surface-variant max-w-[680px] mx-auto mb-10 leading-relaxed">
-                   Pactly holds the brand’s payment and the signed contract in escrow until the post is live and verified. Simple, procedural protection for a straightforward 6% fee. 
+                   Collabio holds the brand’s payment and the signed contract in escrow until the post is live and verified. Simple, procedural protection for a straightforward 6% fee.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full sm:w-auto mb-14">
                   <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary transition-all duration-200" data-go="/signup" href="/signup">
@@ -169,7 +169,7 @@ export default function WelcomePage() {
               </div>
               <div className="mt-20 pt-10">
                 <p className="text-center font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-8">
-                   Brands &amp; agencies securing deals via Pactly 
+                   Brands &amp; agencies securing deals via Collabio
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 items-center justify-items-center opacity-70">
                   <div className="flex items-center gap-2 font-headline-sm text-headline-sm text-on-surface font-medium tracking-tight">
@@ -265,7 +265,7 @@ export default function WelcomePage() {
                       Brand pays into escrow
                     </h3>
                     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
-                       Deposit sits segregated in Pactly's account via Stripe. Money never moves without an instruction. 
+                       Deposit sits segregated in Collabio's account via Stripe. Money never moves without an instruction.
                     </p>
                   </div>
                   <div className="bg-surface-container rounded-lg p-3 text-on-surface-variant flex items-center gap-2.5">
@@ -360,7 +360,7 @@ export default function WelcomePage() {
                    Trust &amp; Legal Guarantees 
                 </h2>
                 <p className="font-body-lg text-body-lg text-on-surface-variant">
-                   Pactly replaces vague WhatsApp promises and unpaid invoice chases with clear, enforceable commercial infrastructure. 
+                   Collabio replaces vague WhatsApp promises and unpaid invoice chases with clear, enforceable commercial infrastructure.
                 </p>
               </div>
               <div className="text-left md:text-right">
@@ -568,7 +568,7 @@ export default function WelcomePage() {
                  Plain-English Escrow FAQ 
               </h2>
               <p className="font-body-lg text-body-lg text-on-surface-variant">
-                 No dense legal clauses. Here is exactly how payment disputes and milestones function on Pactly. 
+                 No dense legal clauses. Here is exactly how payment disputes and milestones function on Collabio.
               </p>
             </div>
             <div id="faq-container" className="space-y-4">
@@ -595,7 +595,7 @@ export default function WelcomePage() {
                   </span>
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
-                   Draft approval is built into the milestone. You have 2 structured revision rounds before publication. If content materially breaches the agreed brief specifications, Pactly provides instant arbitration based strictly on the original signed agreement. 
+                   Draft approval is built into the milestone. You have 2 structured revision rounds before publication. If content materially breaches the agreed brief specifications, Collabio provides instant arbitration based strictly on the original signed agreement.
                 </p>
               </div>
               <div className="bg-surface-container-lowest rounded-xl p-6 shadow-sm">
@@ -621,7 +621,7 @@ export default function WelcomePage() {
                   </span>
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
-                   Pactly connects directly with Instagram, TikTok, and YouTube native APIs. Our automated checker verifies that the agreed post permalink exists, contains mandatory brand tags/hashtags, and remains live without early deletion. 
+                   Collabio connects directly with Instagram, TikTok, and YouTube native APIs. Our automated checker verifies that the agreed post permalink exists, contains mandatory brand tags/hashtags, and remains live without early deletion.
                 </p>
               </div>
             </div>
@@ -685,7 +685,7 @@ export default function WelcomePage() {
           <div className="flex items-center gap-space-sm">
             <Logo className="h-6 w-auto object-contain grayscale opacity-70" />
             <span className="font-label-md text-label-md">
-              © 2025 Pactly Escrow Ltd. Registered in England &amp; Wales. Standard UK Commercial Contracts.
+              © 2025 Collabio Escrow Ltd. Registered in England &amp; Wales. Standard UK Commercial Contracts.
             </span>
           </div>
           <div className="flex items-center gap-space-lg font-label-md text-label-md">

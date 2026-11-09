@@ -1,4 +1,4 @@
-/** Pactly — Mobile Active Deal Management & Live Milestone Monitor */
+/** Collabio — Mobile Active Deal Management & Live Milestone Monitor */
 export default function MobileActiveDealPage() {
   return (
     <>
@@ -368,7 +368,7 @@ export default function MobileActiveDealPage() {
                     balance
                   </span>
                   <span className="font-label-md text-label-md text-on-surface font-semibold">
-                    Assigned Pactly Referee
+                    Assigned Collabio Referee
                   </span>
                 </div>
                 <span className="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">

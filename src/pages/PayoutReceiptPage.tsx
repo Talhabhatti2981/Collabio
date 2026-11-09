@@ -1,4 +1,4 @@
-/** Pactly — Creator Payout Receipt & Remittance PDF Modal */
+/** Collabio — Creator Payout Receipt & Remittance PDF Modal */
 export default function PayoutReceiptPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function PayoutReceiptPage() {
                 P
               </span>
               <span>
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container text-primary font-label-md rounded-lg px-space-sm py-1.5" className="hidden lg:flex items-center gap-space-sm">
@@ -204,7 +204,7 @@ export default function PayoutReceiptPage() {
                          Custodial Payer &amp; Escrow Issuer 
                       </span>
                       <span className="font-headline-sm text-on-surface leading-snug">
-                        Pactly Escrow Technologies Ltd
+                        Collabio Escrow Technologies Ltd
                       </span>
                       <p className="font-body-sm text-on-surface-variant leading-relaxed">
                          Appointed Custodian on behalf of 
@@ -393,7 +393,7 @@ export default function PayoutReceiptPage() {
                       </div>
                       <div className="flex justify-between items-center text-body-sm">
                         <span className="text-on-surface-variant flex items-center gap-1">
-                           Pactly Creator Platform Fee: 
+                           Collabio Creator Platform Fee:
                           <span className="px-1.5 py-0.2 rounded bg-secondary-container/40 text-on-secondary-container font-label-sm font-semibold">
                             0% Zero-Fee Creator Guarantee
                           </span>
@@ -477,7 +477,7 @@ export default function PayoutReceiptPage() {
                         security
                       </span>
                       <span>
-                        Statutory 6-year archival copy permanently stored in Pactly Immutable Vault.
+                        Statutory 6-year archival copy permanently stored in Collabio Immutable Vault.
                       </span>
                     </div>
                     <span>
@@ -542,11 +542,11 @@ export default function PayoutReceiptPage() {
                   P
                 </span>
                 <span>
-                  Pactly Escrow &amp; Contracts
+                  Collabio Escrow &amp; Contracts
                 </span>
               </div>
               <p className="font-body-sm text-on-surface-variant max-w-xl">
-                Pactly Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
+                Collabio Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-space-md text-on-surface-variant font-label-md">
@@ -563,7 +563,7 @@ export default function PayoutReceiptPage() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pt-space-md font-body-sm text-outline">
             <p>
-              © 2025 Pactly Technologies Ltd. All rights reserved. Registered in England &amp; Wales.
+              © 2025 Collabio Technologies Ltd. All rights reserved. Registered in England &amp; Wales.
             </p>
             <div className="flex items-center gap-space-md">
               <span className="flex items-center gap-1 font-label-sm text-secondary">

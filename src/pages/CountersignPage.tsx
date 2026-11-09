@@ -1,4 +1,4 @@
-/** Pactly — Creator View: Countersign & Accept Pact */
+/** Collabio — Creator View: Countersign & Accept Pact */
 export default function CountersignPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function CountersignPage() {
                 P
               </div>
               <span className="font-headline-md text-headline-md tracking-tight text-on-surface">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container-high text-on-surface font-label-lg text-label-lg rounded-lg" className="hidden lg:flex items-center gap-space-xs">
@@ -419,7 +419,7 @@ export default function CountersignPage() {
                              Automated Inspection Protocol 
                           </h4>
                           <p className="font-body-sm text-[12px] text-on-surface-variant mt-1 leading-relaxed">
-                             Once submitted, Pactly bot validates public YouTube URL, segment run-time, and pinned link. Upon confirmation or 
+                             Once submitted, Collabio bot validates public YouTube URL, segment run-time, and pinned link. Upon confirmation or
                             <strong>
                               48 hours of brand inactivity
                             </strong>
@@ -492,7 +492,7 @@ export default function CountersignPage() {
                              Instant Release on Token Delivery 
                           </h4>
                           <p className="font-body-sm text-[12px] text-on-surface-variant mt-1 leading-relaxed">
-                             Escrow releases instantly upon pasting verified valid advertising code into the Pactly creator portal. No revision requests permissible on ads code. 
+                             Escrow releases instantly upon pasting verified valid advertising code into the Collabio creator portal. No revision requests permissible on ads code.
                           </p>
                         </div>
                         <div className="flex items-center gap-2 mt-2 pt-2 border-t border-surface-container-high text-[11px] text-on-surface-variant">
@@ -593,7 +593,7 @@ export default function CountersignPage() {
                         <strong>
                           Jurisdiction:
                         </strong>
-                         This agreement is governed by the laws of England and Wales. Pactly Escrow Services Ltd serves as appointed custodian and neutral payment facilitator under client money custodial protocols. 
+                         This agreement is governed by the laws of England and Wales. Collabio Escrow Services Ltd serves as appointed custodian and neutral payment facilitator under client money custodial protocols.
                       </p>
                       <p>
                         <strong>
@@ -605,7 +605,7 @@ export default function CountersignPage() {
                         <strong>
                           Expedited Dispute Resolution:
                         </strong>
-                         Any unsettled disputes post 72-hour informal window are submitted to Pactly Fast-Track CEDR/SRA accredited panel arbitrator. Award is final and binding with legal cost indemnity capped at Rs 27,750. 
+                         Any unsettled disputes post 72-hour informal window are submitted to Collabio Fast-Track CEDR/SRA accredited panel arbitrator. Award is final and binding with legal cost indemnity capped at Rs 27,750.
                       </p>
                     </div>
                   </details>
@@ -750,7 +750,7 @@ export default function CountersignPage() {
                     <p className="font-body-sm text-[11px] text-on-surface-variant leading-relaxed">
                        Deposit received via NatWest Faster Payments into Segregated Client Trust Account 
                       <strong>
-                        GB-PACTLY-0028
+                        GB-COLLABIO-0028
                       </strong>
                       . Brand cannot withdraw without creator mutual signed release. 
                     </p>
@@ -860,7 +860,7 @@ export default function CountersignPage() {
       <footer className="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.02)] py-space-xl">
         <div className="max-w-[1200px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant">
           <div>
-            © 2025 Pactly Escrow Services Ltd (UK). FCA Appointed Representative standards. Funds ring-fenced in tier-1 custody.
+            © 2025 Collabio Escrow Services Ltd (UK). FCA Appointed Representative standards. Funds ring-fenced in tier-1 custody.
           </div>
           <div className="flex items-center gap-space-lg">
             <a className="hover:text-on-surface transition-colors" data-go="/legal" href="/legal">

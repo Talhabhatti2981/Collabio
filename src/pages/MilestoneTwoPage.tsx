@@ -1,4 +1,4 @@
-/** Pactly — Milestone 2: Brand Review & Campaign Launch (TikTok Spark Ads) */
+/** Collabio — Milestone 2: Brand Review & Campaign Launch (TikTok Spark Ads) */
 export default function MilestoneTwoPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function MilestoneTwoPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container text-primary font-label-md text-label-md rounded-lg" className="hidden lg:flex items-center gap-space-xs">
@@ -596,7 +596,7 @@ export default function MilestoneTwoPage() {
                           verified_user
                         </span>
                         <span>
-                          Cryptographically signed with Charlotte's verified Pactly key
+                          Cryptographically signed with Charlotte's verified Collabio key
                         </span>
                       </div>
                     </div>

@@ -1,4 +1,4 @@
-/** Pactly — Deal Close & Archival Completed (Deal #UK-5028) */
+/** Collabio — Deal Close & Archival Completed (Deal #UK-5028) */
 export default function DealClosedPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function DealClosedPage() {
                 P
               </span>
               <span>
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container text-primary font-label-md rounded-lg px-space-sm py-1.5" className="hidden lg:flex items-center gap-space-sm">
@@ -473,7 +473,7 @@ export default function DealClosedPage() {
                       </h2>
                     </div>
                     <span className="font-label-sm text-on-surface-variant font-mono">
-                      Pactly Verified 5.0 ★
+                      Collabio Verified 5.0 ★
                     </span>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md">
@@ -498,7 +498,7 @@ export default function DealClosedPage() {
                           </div>
                         </div>
                         <blockquote className="font-body-sm text-on-surface italic pt-1">
-                           “Brilliant communication, instant milestone payouts via Pactly, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!” 
+                           “Brilliant communication, instant milestone payouts via Collabio, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!”
                         </blockquote>
                       </div>
                       <span className="font-label-sm text-outline font-mono">
@@ -745,7 +745,7 @@ export default function DealClosedPage() {
                     <div className="flex items-center justify-between py-1">
                       <div className="flex flex-col">
                         <span className="text-on-surface font-medium">
-                          Pactly Platform Fee (6%)
+                          Collabio Platform Fee (6%)
                         </span>
                         <span className="text-outline text-xs">
                           Retained from Brand Gross
@@ -934,11 +934,11 @@ export default function DealClosedPage() {
                   P
                 </span>
                 <span>
-                  Pactly Escrow & Contracts
+                  Collabio Escrow & Contracts
                 </span>
               </div>
               <p className="font-body-sm text-on-surface-variant max-w-xl">
-                Pactly Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
+                Collabio Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-space-md text-on-surface-variant font-label-md">
@@ -955,7 +955,7 @@ export default function DealClosedPage() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pt-space-md font-body-sm text-outline">
             <p>
-              © 2025 Pactly Technologies Ltd. All rights reserved. Registered in England & Wales.
+              © 2025 Collabio Technologies Ltd. All rights reserved. Registered in England & Wales.
             </p>
             <div className="flex items-center gap-space-md">
               <span className="flex items-center gap-1 font-label-sm text-secondary">

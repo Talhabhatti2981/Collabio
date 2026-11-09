@@ -1,4 +1,4 @@
-/** Pactly — Mobile Creator Payout Receipt & Remittance PDF Modal */
+/** Collabio — Mobile Creator Payout Receipt & Remittance PDF Modal */
 export default function MobileReceiptPage() {
   return (
     <>
@@ -115,7 +115,7 @@ export default function MobileReceiptPage() {
                       Custodial Disburser
                     </span>
                     <span className="font-body-sm text-body-sm text-on-surface font-semibold truncate">
-                      Pactly Escrow Technologies Ltd
+                      Collabio Escrow Technologies Ltd
                     </span>
                     <span className="font-body-sm text-body-sm text-on-surface-variant leading-snug">
                        FCA FRN 841920 • on behalf of Lumina Studio Ltd (GB 492 8104 22) 
@@ -260,7 +260,7 @@ export default function MobileReceiptPage() {
                     <span className="material-symbols-outlined text-[16px] text-secondary">
                       check_circle
                     </span>
-                     Pactly Platform Creator Fee (0% Guarantee) 
+                     Collabio Platform Creator Fee (0% Guarantee)
                   </span>
                   <span className="font-semibold text-secondary">
                     Rs 0

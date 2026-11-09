@@ -1,4 +1,4 @@
-/** Pactly — Autonomous Release Live Execution & Settlement Receipt Modal */
+/** Collabio — Autonomous Release Live Execution & Settlement Receipt Modal */
 export default function SettlementReceiptPage() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function SettlementReceiptPage() {
               </div>
               <div className="flex flex-col">
                 <span className="font-headline-sm text-headline-sm text-on-surface leading-tight font-semibold tracking-tight">
-                  Pactly
+                  Collabio
                 </span>
                 <span className="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">
                   Escrow Guard
@@ -202,7 +202,7 @@ export default function SettlementReceiptPage() {
                     <span className="material-symbols-outlined text-[16px]">
                       bolt
                     </span>
-                     Autonomous Settlement Engine (Pactly Core v4) 
+                     Autonomous Settlement Engine (Collabio Core v4)
                   </div>
                   <h1 className="font-headline-xl text-headline-xl text-on-surface font-semibold tracking-tight">
                      Autonomous Escrow Release &amp; Settlement Receipt 
@@ -493,7 +493,7 @@ export default function SettlementReceiptPage() {
                         <code className="font-mono text-on-surface font-semibold text-[12px]">
                           eIDAS-GB-PACT-5028-M1-REL
                         </code>
-                         digitally countersigned by Pactly Escrow UK. 
+                         digitally countersigned by Collabio Escrow UK.
                       </div>
                     </div>
                     <div className="flex items-start gap-2">
@@ -571,7 +571,7 @@ export default function SettlementReceiptPage() {
                   P
                 </div>
                 <span className="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">
-                  Pactly Financial Technologies UK Ltd
+                  Collabio Financial Technologies UK Ltd
                 </span>
               </div>
               <p className="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
@@ -615,7 +615,7 @@ export default function SettlementReceiptPage() {
           </div>
           <div className="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md">
             <span className="font-label-sm text-label-sm text-on-surface-variant">
-              © 2025 Pactly Financial Technologies UK Ltd. Registered in England &amp; Wales (No. 14920841). All rights reserved.
+              © 2025 Collabio Financial Technologies UK Ltd. Registered in England &amp; Wales (No. 14920841). All rights reserved.
             </span>
             <div className="flex items-center gap-space-lg">
               <a className="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#" onClick={(event) => event.preventDefault()}>

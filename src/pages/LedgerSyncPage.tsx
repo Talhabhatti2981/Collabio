@@ -1,4 +1,4 @@
-/** Pactly — Xero / QuickBooks Sync Success Notification Modal */
+/** Collabio — Xero / QuickBooks Sync Success Notification Modal */
 export default function LedgerSyncPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function LedgerSyncPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface font-semibold">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-surface-container-high text-primary font-label-md rounded-lg" className="hidden lg:flex items-center gap-space-xs">
@@ -331,7 +331,7 @@ export default function LedgerSyncPage() {
                             </td>
                             <td className="py-3 px-4 align-top">
                               <div className="text-body-sm font-medium">
-                                Pactly Escrow Safeguarding &amp; Smart Contract Management
+                                Collabio Escrow Safeguarding &amp; Smart Contract Management
                               </div>
                               <div className="text-label-sm text-on-surface-variant">
                                 Standard platform fee (6%) • Lumina Studio Billing
@@ -569,7 +569,7 @@ export default function LedgerSyncPage() {
             </div>
           </div>
           <div className="text-center md:text-left font-body-sm text-body-sm text-on-surface-variant">
-            © 2025 Pactly Escrow Technologies Ltd. Registered in England &amp; Wales (No. 12984021). All escrowed funds held in designated trust accounts.
+            © 2025 Collabio Escrow Technologies Ltd. Registered in England &amp; Wales (No. 12984021). All escrowed funds held in designated trust accounts.
           </div>
         </div>
       </footer>

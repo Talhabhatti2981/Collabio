@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex items-center gap-space-sm">
           <Logo className="h-6 w-6 opacity-80" />
           <span className="font-label-md text-label-md">
-            © 2025 Pactly Escrow Ltd. Registered in England & Wales (No. 14298102).
+            © 2025 Collabio Escrow Ltd. Registered in England & Wales (No. 14298102).
             Regulated trust custody rails via FCA authorised institutions.
           </span>
         </div>

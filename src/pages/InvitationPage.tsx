@@ -1,4 +1,4 @@
-/** Pactly — Respond to an Invitation (Creator counter-offer & accept flow) */
+/** Collabio — Respond to an Invitation (Creator counter-offer & accept flow) */
 export default function InvitationPage() {
   return (
     <>
@@ -32,7 +32,7 @@ export default function InvitationPage() {
             <div className="flex items-center gap-space-xl">
               <a className="flex items-center gap-2 group" data-go="/deals" href="/deals">
                 <span className="font-headline-md text-headline-md tracking-tight font-bold text-on-surface">
-                  Pactly
+                  Collabio
                 </span>
                 <span className="w-2 h-2 rounded-full bg-primary-container"></span>
               </a>
@@ -152,7 +152,7 @@ export default function InvitationPage() {
                       <strong className="text-on-surface font-semibold">
                         Rs 666,000
                       </strong>
-                       are pre-authorized and held in ring-fenced Stripe Escrow custody under English Commercial Law (Pactly Custody Protocol 4.2). 
+                       are pre-authorized and held in ring-fenced Stripe Escrow custody under English Commercial Law (Collabio Custody Protocol 4.2).
                     </p>
                   </div>
                 </div>
@@ -258,7 +258,7 @@ export default function InvitationPage() {
                       </div>
                       <div className="p-space-sm bg-surface-container-low rounded-lg flex flex-col">
                         <span className="font-label-sm text-label-sm text-on-surface-variant">
-                          Pactly Track Record
+                          Collabio Track Record
                         </span>
                         <span className="font-label-md text-label-md font-semibold text-secondary">
                           38 Pacts Completed
@@ -428,7 +428,7 @@ export default function InvitationPage() {
                           <strong>
                             2. Delivery &amp; Verification:
                           </strong>
-                           Creator submits delivery links via Pactly API. Time-stamped logs verify public availability or draft access for brand approval.
+                           Creator submits delivery links via Collabio API. Time-stamped logs verify public availability or draft access for brand approval.
                         </p>
                         <p>
                           <strong>
@@ -466,7 +466,7 @@ export default function InvitationPage() {
                       </div>
                       <div className="flex items-center justify-between font-label-md text-label-md">
                         <span className="text-on-surface-variant flex items-center gap-1">
-                           Pactly Custody &amp; Legal Protocol (6%) 
+                           Collabio Custody &amp; Legal Protocol (6%)
                           <span title="Covers dispute arbitration guarantee &amp; payment rails" className="material-symbols-outlined text-[13px] text-outline-variant">
                             info
                           </span>
@@ -569,7 +569,7 @@ export default function InvitationPage() {
                     </div>
                     <div className="flex flex-col">
                       <span className="font-headline-sm text-headline-sm text-on-surface">
-                        Pactly Zero-Ghosting Guarantee
+                        Collabio Zero-Ghosting Guarantee
                       </span>
                       <p className="font-body-sm text-body-sm text-on-surface-variant">
                          If the client does not review submissions within 72h, our smart escrow releases funds autonomously. You are never left chasing invoices. 
@@ -655,7 +655,7 @@ export default function InvitationPage() {
                         </div>
                         <div className="flex items-baseline justify-between text-[11px] text-on-surface-variant">
                           <span>
-                            Pactly 6% platform custodian:
+                            Collabio 6% platform custodian:
                           </span>
                           <span id="recalculated-fee">
                             -Rs 46,620
@@ -821,7 +821,7 @@ export default function InvitationPage() {
                       </div>
                       <div className="flex justify-between py-1">
                         <span className="text-on-surface-variant">
-                          Pactly Escrow Fee:
+                          Collabio Escrow Fee:
                         </span>
                         <span id="summary-proposed-fee" className="font-semibold text-error">
                           -Rs 46,620
@@ -966,7 +966,7 @@ export default function InvitationPage() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
             <div className="flex items-center gap-2">
               <span className="font-headline-sm text-headline-sm tracking-tight font-bold text-on-surface">
-                Pactly
+                Collabio
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
               <span className="font-body-sm text-body-sm text-on-surface-variant ml-2">
@@ -990,10 +990,10 @@ export default function InvitationPage() {
           </div>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm pt-space-md font-body-sm text-body-sm text-on-surface-variant">
             <p className="max-w-3xl">
-              Pactly acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
+              Collabio acts as an impartial software custodian. Funds held in segregated client escrow accounts powered by authorised payment institutions regulated under the UK Electronic Money Regulations 2011. Registered in England &amp; Wales.
             </p>
             <p className="font-label-sm text-label-sm shrink-0">
-              © 2025 Pactly Technologies Ltd. All rights reserved.
+              © 2025 Collabio Technologies Ltd. All rights reserved.
             </p>
           </div>
         </div>

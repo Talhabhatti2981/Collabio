@@ -3,7 +3,7 @@ import FlowBridge from './components/FlowBridge'
 import HelpPage from './pages/HelpPage'
 import ProfilePage from './pages/ProfilePage'
 import SettingsPage from './pages/SettingsPage'
-import { PactlyRoutes } from './pactlyRoutes'
+import { CollabioRoutes } from './collabioRoutes'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/help" element={<HelpPage />} />
-        {PactlyRoutes()}
+        {CollabioRoutes()}
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </BrowserRouter>

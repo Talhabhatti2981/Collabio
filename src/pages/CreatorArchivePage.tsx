@@ -1,4 +1,4 @@
-/** Pactly — Archived Deal (Creator View: Charlotte Clark) */
+/** Collabio — Archived Deal (Creator View: Charlotte Clark) */
 export default function CreatorArchivePage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function CreatorArchivePage() {
                 P
               </span>
               <span>
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-surface-container text-primary font-label-md rounded-lg px-space-sm py-1.5" className="hidden lg:flex items-center gap-space-sm">
@@ -394,7 +394,7 @@ export default function CreatorArchivePage() {
                        100% Commercial Boosting Rights Reverted to Charlotte Emily Clark 
                     </div>
                     <p className="font-body-sm text-on-surface-variant leading-relaxed">
-                       Pursuant to English Commercial Law Model 2.4 (Schedule 2, Clause 5.1), Lumina Studio Ltd’s commercial advertising rights expired permanently on 25 Dec 2026 at 23:59:00 UTC. The advertiser’s TikTok Spark Ads cryptographic token has been decommissioned from the Pactly API bridge. Continued brand paid usage is subject to statutory statutory infringement damages under UK Copyright Designs and Patents Act 1988. 
+                       Pursuant to English Commercial Law Model 2.4 (Schedule 2, Clause 5.1), Lumina Studio Ltd’s commercial advertising rights expired permanently on 25 Dec 2026 at 23:59:00 UTC. The advertiser’s TikTok Spark Ads cryptographic token has been decommissioned from the Collabio API bridge. Continued brand paid usage is subject to statutory statutory infringement damages under UK Copyright Designs and Patents Act 1988.
                     </p>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
@@ -458,7 +458,7 @@ export default function CreatorArchivePage() {
                         </span>
                       </div>
                       <p className="font-body-sm text-on-surface-variant italic">
-                         "Brilliant communication, instant milestone payouts via Pactly, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!" 
+                         "Brilliant communication, instant milestone payouts via Collabio, and crystal-clear creative guidelines. Would gladly partner with Lumina Studio again!"
                       </p>
                       <span className="font-label-sm text-outline mt-auto">
                         Verified Creator • Sole Trader
@@ -494,7 +494,7 @@ export default function CreatorArchivePage() {
                     </div>
                     <div className="p-space-sm rounded-lg bg-surface-container-low">
                       <span className="font-label-sm text-outline block">
-                        Pactly Platform Fee
+                        Collabio Platform Fee
                       </span>
                       <span className="font-headline-md text-secondary">
                         Rs 0
@@ -832,7 +832,7 @@ export default function CreatorArchivePage() {
                     6-Year Statutory Archival Guarantee
                   </span>
                   <span className="font-body-sm text-on-surface-variant">
-                    Pactly ensures this record, contract hash, and payment traces are accessible in your Vault until 25 December 2032.
+                    Collabio ensures this record, contract hash, and payment traces are accessible in your Vault until 25 December 2032.
                   </span>
                 </div>
               </div>
@@ -852,11 +852,11 @@ export default function CreatorArchivePage() {
                   P
                 </span>
                 <span>
-                  Pactly Escrow &amp; Contracts
+                  Collabio Escrow &amp; Contracts
                 </span>
               </div>
               <p className="font-body-sm text-on-surface-variant max-w-xl">
-                Pactly Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
+                Collabio Ltd is an appointed representative authorized and regulated under statutory UK custodial framework. Client custody funds are ring-fenced in segregated tier-one escrow accounts.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-space-md text-on-surface-variant font-label-md">
@@ -873,7 +873,7 @@ export default function CreatorArchivePage() {
           </div>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pt-space-md font-body-sm text-outline">
             <p>
-              © 2025 Pactly Technologies Ltd. All rights reserved. Registered in England &amp; Wales.
+              © 2025 Collabio Technologies Ltd. All rights reserved. Registered in England &amp; Wales.
             </p>
             <div className="flex items-center gap-space-md">
               <span className="flex items-center gap-1 font-label-sm text-secondary">

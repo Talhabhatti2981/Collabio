@@ -1,4 +1,4 @@
-/** Pactly — Brand Final Approval & Payout Release Modal */
+/** Collabio — Brand Final Approval & Payout Release Modal */
 export default function PayoutReleasePage() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function PayoutReleasePage() {
           <div className="flex items-center gap-gutter">
             <div className="flex items-center gap-space-xs">
               <span className="font-headline-md text-headline-md text-primary tracking-tight font-bold">
-                Pactly
+                Collabio
               </span>
               <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider bg-surface-container px-space-xs py-0.5 rounded">
                 UK Escrow
@@ -177,7 +177,7 @@ export default function PayoutReleasePage() {
               </div>
             </div>
           </div>
-          <div id="pactlyApprovalModalBackdrop" className="fixed inset-0 z-50 bg-inverse-surface/45 backdrop-blur-md flex items-center justify-center p-space-md sm:p-space-lg overflow-y-auto">
+          <div id="collabioApprovalModalBackdrop" className="fixed inset-0 z-50 bg-inverse-surface/45 backdrop-blur-md flex items-center justify-center p-space-md sm:p-space-lg overflow-y-auto">
             <div className="relative w-full max-w-[860px] bg-surface-container-lowest rounded-2xl shadow-[0_20px_35px_-5px_rgba(17,24,39,0.12),0_10px_14px_-6px_rgba(17,24,39,0.06)] overflow-hidden my-auto animate-in fade-in zoom-in-95 duration-200">
               <div className="bg-surface-container-low px-space-xl py-space-md flex flex-wrap items-center justify-between gap-space-sm">
                 <div className="flex flex-wrap items-center gap-space-xs sm:gap-space-sm text-label-sm font-label-sm">
@@ -396,7 +396,7 @@ export default function PayoutReleasePage() {
                         </span>
                       </div>
                       <p className="font-body-sm text-body-sm text-on-surface-variant pl-7 mb-space-sm">
-                         Pactly arms a YouTube Data API v3 webhook. The instant Charlotte switches the video from 
+                         Collabio arms a YouTube Data API v3 webhook. The instant Charlotte switches the video from
                         <span className="font-medium text-on-surface">
                           Unlisted to Public
                         </span>
@@ -472,7 +472,7 @@ export default function PayoutReleasePage() {
                     </div>
                     <div className="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
                       <span className="font-label-sm text-label-sm text-on-surface-variant">
-                        Pactly Custody Fee (6%)
+                        Collabio Custody Fee (6%)
                       </span>
                       <div className="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">
                         Rs 0 
@@ -528,7 +528,7 @@ export default function PayoutReleasePage() {
                         Legal Discharge & Perpetual Organic Rights Vesting
                       </span>
                       <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-                         Pursuant to English Commercial Law Framework Model 2.4 and Pactly Terms: approval irrevocably vests worldwide, non-exclusive organic digital distribution rights for Deliverable v2 in Lumina Studio Ltd. Milestone 1 review rights and anti-ghosting escrow timers are formally discharged. Harrison & Croft LLP arbitration covenants transition to Milestone 2. 
+                         Pursuant to English Commercial Law Framework Model 2.4 and Collabio Terms: approval irrevocably vests worldwide, non-exclusive organic digital distribution rights for Deliverable v2 in Lumina Studio Ltd. Milestone 1 review rights and anti-ghosting escrow timers are formally discharged. Harrison & Croft LLP arbitration covenants transition to Milestone 2.
                       </p>
                       <label className="mt-space-sm flex items-start gap-space-sm cursor-pointer p-space-xs rounded-lg hover:bg-surface-container-low transition-colors">
                         <input id="legalAcceptanceCheck" type="checkbox" className="mt-1 w-4 h-4 rounded text-primary focus:ring-primary" />
@@ -595,7 +595,7 @@ export default function PayoutReleasePage() {
             <div className="flex flex-col gap-space-xs">
               <div className="flex items-center gap-space-xs">
                 <span className="font-headline-sm text-headline-sm text-on-surface font-bold">
-                  Pactly Financial Protection
+                  Collabio Financial Protection
                 </span>
                 <span className="font-label-sm text-label-sm text-secondary bg-surface-container px-space-xs py-0.5 rounded font-semibold">
                   FCA Safeguarded
@@ -622,7 +622,7 @@ export default function PayoutReleasePage() {
           </div>
           <div className="pt-space-md border-t border-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant">
             <span className="font-body-sm text-body-sm">
-              © 2024 Pactly Ltd. Registered in England & Wales. All rights reserved.
+              © 2024 Collabio Ltd. Registered in England & Wales. All rights reserved.
             </span>
             <span className="font-label-sm text-label-sm uppercase tracking-wider text-outline">
               UK English Commercial Jurisdiction

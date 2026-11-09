@@ -1,4 +1,4 @@
-/** Pactly — Active Deal Management & Live Milestone Monitor */
+/** Collabio — Active Deal Management & Live Milestone Monitor */
 export default function ActiveDealPage() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function ActiveDealPage() {
                 P
               </span>
               <span className="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">
-                Pactly
+                Collabio
               </span>
             </div>
             <nav data-active-classes="bg-primary-container text-on-primary font-medium rounded-lg" className="hidden md:flex items-center gap-1">
@@ -563,7 +563,7 @@ export default function ActiveDealPage() {
                             <strong>
                               Public
                             </strong>
-                            , Pactly’s webhook triggers verification of the public publish event, matching timestamp and metadata within 180 seconds to execute automated escrow payout. 
+                            , Collabio’s webhook triggers verification of the public publish event, matching timestamp and metadata within 180 seconds to execute automated escrow payout.
                           </p>
                         </div>
                       </div>
@@ -621,10 +621,10 @@ export default function ActiveDealPage() {
                       <span className="material-symbols-outlined text-primary text-[18px]">
                         verified_user
                       </span>
-                       Deliverable: TikTok Spark Ads Code Submission &amp; Identity Whitelist 
+                       Deliverable: TikTok Spark Ads Code Submission &amp; Identity Whitelist
                     </div>
                     <p>
-                       Awaiting creator code submission. When submitted, Pactly API validates code format, authentication window (minimum 30 calendar days), and paid usage rights directly via TikTok Marketing API. 
+                       Awaiting creator code submission. When submitted, Collabio API validates code format, authentication window (minimum 30 calendar days), and paid usage rights directly via TikTok Marketing API.
                     </p>
                     <div className="flex items-center gap-4 text-on-surface-variant font-label-sm text-label-sm pt-2">
                       <span className="flex items-center gap-1">
@@ -686,7 +686,7 @@ export default function ActiveDealPage() {
                       <div className="flex-1 space-y-1">
                         <div className="flex items-center justify-between font-label-sm text-label-sm">
                           <span className="text-on-surface font-semibold">
-                            Pactly Automated Checker verified sponsor duration: 88 seconds
+                            Collabio Automated Checker verified sponsor duration: 88 seconds
                           </span>
                           <span className="text-outline">
                             23 Nov, 14:18 GMT
@@ -900,7 +900,7 @@ export default function ActiveDealPage() {
                     </div>
                   </div>
                   <p className="font-label-sm text-label-sm text-on-surface-variant leading-relaxed">
-                     Pactly receives real-time publish events directly from Google Cloud Platform. Payout execution triggers autonomously without manual bank intervention. 
+                     Collabio receives real-time publish events directly from Google Cloud Platform. Payout execution triggers autonomously without manual bank intervention.
                   </p>
                 </aside>
                 <aside className="bg-surface-container-lowest rounded-xl shadow-sm p-6 space-y-4">
@@ -957,7 +957,7 @@ export default function ActiveDealPage() {
                       <span className="material-symbols-outlined text-[16px] text-primary">
                         support_agent
                       </span>
-                       Contact Pactly Escrow Referee 
+                       Contact Collabio Escrow Referee
                     </button>
                   </div>
                 </aside>
@@ -999,7 +999,7 @@ export default function ActiveDealPage() {
           </div>
           <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-on-surface-variant font-label-sm text-label-sm">
             <span>
-              © 2025 Pactly Ltd. All rights reserved. Registered in England &amp; Wales.
+              © 2025 Collabio Ltd. All rights reserved. Registered in England &amp; Wales.
             </span>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1.5">

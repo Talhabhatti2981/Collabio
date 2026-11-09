@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
-const ROLE_KEY = 'pactly-role'
+const ROLE_KEY = 'collabio-role'
 
 export default function FlowBridge() {
   const navigate = useNavigate()

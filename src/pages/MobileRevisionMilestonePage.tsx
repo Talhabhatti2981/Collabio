@@ -1,4 +1,4 @@
-/** Pactly — Mobile Revision Request Modal (Milestone 1) */
+/** Collabio — Mobile Revision Request Modal (Milestone 1) */
 export default function MobileRevisionMilestonePage() {
   return (
     <>
@@ -301,7 +301,7 @@ export default function MobileRevisionMilestonePage() {
                 <strong className="font-semibold text-on-surface">
                   Statutory arbitration notice:
                 </strong>
-                 If requested modifications fall outside agreed Schedule 1 specifications, creator may invoke Pactly neutral referee review under the Rs 27,750arbitration statutory cap. 
+                 If requested modifications fall outside agreed Schedule 1 specifications, creator may invoke Collabio neutral referee review under the Rs 27,750arbitration statutory cap.
               </p>
             </div>
             <div className="flex flex-col gap-2.5 pt-2">

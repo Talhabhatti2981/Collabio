@@ -1,4 +1,4 @@
-/** Pactly — Revision Request Modal (Brand Feedback & Timestamped Redline) */
+/** Collabio — Revision Request Modal (Brand Feedback & Timestamped Redline) */
 export default function RevisionRequestPage() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function RevisionRequestPage() {
                 </span>
               </div>
               <span className="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">
-                Pactly
+                Collabio
               </span>
             </a>
             <nav data-active-classes="bg-primary-container text-on-primary font-medium rounded-lg px-3 py-1.5" className="hidden lg:flex items-center gap-space-sm">
@@ -467,7 +467,7 @@ export default function RevisionRequestPage() {
               </span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant max-w-2xl">
-              Pactly Ltd acts as an impartial custody referee. Client funds are safeguarded in ring-fenced designated accounts held with UK authorized credit institutions pursuant to FCA regulatory standards under the Payment Services Regulations 2017.
+              Collabio Ltd acts as an impartial custody referee. Client funds are safeguarded in ring-fenced designated accounts held with UK authorized credit institutions pursuant to FCA regulatory standards under the Payment Services Regulations 2017.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-space-lg text-on-surface-variant">
@@ -481,7 +481,7 @@ export default function RevisionRequestPage() {
               Dispute Arbitration
             </a>
             <span className="font-label-sm text-label-sm text-on-surface-variant">
-              © 2025 Pactly Ltd. Registered in England & Wales.
+              © 2025 Collabio Ltd. Registered in England & Wales.
             </span>
           </div>
         </div>

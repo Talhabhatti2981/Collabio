@@ -18,7 +18,7 @@ export default function Header() {
           <Link className="flex items-center gap-space-sm" to="/deals">
             <Logo className="h-8 w-8" />
             <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface">
-              Pactly
+              Collabio
             </span>
           </Link>
           <nav className="hidden items-center gap-space-xs md:flex">

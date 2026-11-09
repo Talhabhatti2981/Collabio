@@ -384,14 +384,14 @@ export default function CounterOfferPage() {
                   [
                     { label: 'Existing Escrow Locked:', value: pkr(1908), strong: true },
                     { label: 'Revised Creator Net:', value: pkr(2100), strong: false },
-                    { label: 'Pactly 6% Custody Fee:', value: pkr(126), strong: false },
+                    { label: 'Collabio 6% Custody Fee:', value: pkr(126), strong: false },
                     { label: 'Total Revised Commitment:', value: pkr(2226), strong: true },
                   ] as const
                 ).map(({ label, value, strong }) => (
                   <div key={label} className="flex items-center justify-between text-on-surface-variant">
                     <span className="flex items-center gap-1">
                       {label}
-                      {label.startsWith('Pactly') && (
+                      {label.startsWith('Collabio') && (
                         <Icon
                           className="cursor-help text-[14px] text-outline"
                           name="help"
@@ -501,7 +501,7 @@ export default function CounterOfferPage() {
                     I, <strong className="font-semibold text-on-surface">David Vance</strong>,
                     confirm authorization to debit{' '}
                     <strong className="font-semibold text-on-surface">{pkr(318)}</strong> from Barclays
-                    Commercial UK to ring-fenced Stripe/Pactly client custody vault, legally
+                    Commercial UK to ring-fenced Stripe/Collabio client custody vault, legally
                     amending Deal #UK-5028 under English Commercial Law Model 2.4.
                   </span>
                 </label>
